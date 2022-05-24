@@ -1,0 +1,28 @@
+* {
+    margin: 15px;
+    padding: 0;
+}
+
+h1 {
+    background-color: darkgrey;
+}
+.punkt_1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    color: slategrey;
+}
+
+.picture_1 {
+    width: 600px;
+    height: auto;
+}
+
+.span:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.languadges {
+    padding-left: 60px;
+}
