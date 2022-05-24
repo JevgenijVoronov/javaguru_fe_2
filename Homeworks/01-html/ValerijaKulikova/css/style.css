@@ -6,6 +6,11 @@
 h1 {
     background-color: darkgrey;
 }
+
+.about_me {
+    text-align: center;
+}
+
 .punkt_1 {
     text-align: center;
     font-style: italic;
@@ -21,8 +26,19 @@ h1 {
 .span:hover {
     font-style: italic;
     cursor: pointer;
+    background-color: grey;
 }
+
+
 
 .languadges {
     padding-left: 60px;
+}
+
+.first_line {
+    background-color: grey;
+}
+
+.second_line {
+    background-color: darkgray;
 }
