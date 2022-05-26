@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+</head>
+
+<body>
+    <main>
+        <article>
+            <h1>Форма регистрации</h1>
+            <form action="#" method="get">
+                <!-- fild name and password -->
+                <fieldset>
+                    <label for="login">Введите свой логин</label>
+                    <input type="text" name="login" id="login" required>
+                    <label for="password">Введите пароль</label>
+                    <input type="password" name="password" id="password" required>
+                </fieldset>
+                <!-- fild name and password -->
+
+
+                <fieldset>
+                    <legend><mark>Дополнительная информация о себе</mark></legend>
+
+                    <!-- sex -->
+                    <h2>Укажите пол</h2>
+                    <input type="radio" name="gender" value="Мужской">
+                    <label for="gender">Мужской</label>
+                    <br>
+                    <input type="radio" name="gender" value="Женский">
+                    <label for="gender">Женский</label>
+                     <!-- sex -->
+
+                    <!-- birth date-->
+                    <h2>Укажите дату рождения</h2>
+                    <label for="birthday">День рождения</label>
+                    <input type="date" name="birthday">
+                    <!-- birth date-->
+
+                    <!-- location -->
+                    <h2>Место проживания</h2>
+                    <label for="city">Ваш город</label>
+                    <input type="text" name="city" id="city">
+                    <!-- location -->
+                </fieldset>
+
+                <!-- hobby -->
+                <fieldset>
+                    <legend><mark>Ваши хобби</mark></legend>
+                    <table>
+                        <caption>Можно выбрать любое количество увлечений</caption>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="travel" id="travel">
+                                <label for="travel">Путешествие</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="programming" id="programming">
+                                <label for="programming">Програмировать</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="painting">
+                                <label for="painting">Рисовать</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="play-musical-instruments" id="play-musical-instruments">
+                                <label for="play-musical-instruments">Играть на музыкальных инструментах</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="programming" id="programming">
+                                <label for="programming">Ходить в походы</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="programming" id="programming">
+                                <label for="programming">Кататься верхом</label>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <!-- hobby -->
+
+                <!-- story -->
+                <fieldset>
+                    <legend><mark>Коротко о себе</mark></legend>
+                    <hr>
+                    <label for="story">Расскажите о себе:</label>
+                    <textarea id="story" name="story" rows="5" cols="33"></textarea>
+                    <hr>
+                </fieldset>
+                <!-- story -->
+
+                <br>
+                <input type="submit" value="Отправить">
+
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>
 
