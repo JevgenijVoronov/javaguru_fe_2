@@ -3,6 +3,10 @@
 <head>
     <title>UX Designer portfolio</title>
     <style>
+        hr {
+            margin-top: 64px;
+        }
+
         img {
             float: left;
             height: inherit;
@@ -29,32 +33,35 @@
         }
 
         nav {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         nav a {
             color: #8338ec;
-            padding: 10px;
+            padding: 16px;
             display: inline-block;
         }
     </style>
 </head>
 
 <body>
-    <nav>
-        <a href="test0"> About me</a>
-        <a href="test"> Work experience</a>
-        <a href="test1"> Education and training</a>
-        <a href="test2"> Software skills</a>
-        <a href="test5"> Interests</a>
-    </nav>
+    <header>
+        <nav>
+            <a href="#about-me">About me</a>
+            <a href="#work-experience"> Work experience</a>
+            <a href="#education-and-training"> Education and training</a>
+            <a href="#software-skills"> Software skills</a>
+            <a href="#interests"> Interests</a>
+            <a href="#contact-me"> Contact me</a>
+        </nav>
+    </header>
+
 
     <section id="about-me">
 
         <div style="height:100px">
             <!--About me-->
-            <img src="https://images.pexels.com/photos/4904564/pexels-photo-4904564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Me">
+            <img src="img-1.jpg" alt="Me">
             <div>
                 <h1>Alyson Kavinsky</h1>
                 <text>UX Designer</text>
@@ -63,7 +70,7 @@
     </section>
     <!--About me-->
 
-
+    <hr>
     <section id="work-experience">
         <!--Work experience-->
         <div>
@@ -75,6 +82,7 @@
         <!--Work experience-->
     </section>
 
+    <hr>
     <section id="education-and-training">
         <!--Education and training-->
         <div>
@@ -86,7 +94,7 @@
         <!--Education and training-->
     </section>
 
-
+    <hr>
     <section id="software-skills">
         <!--Software skills-->
         <div>
@@ -99,12 +107,39 @@
         <!--Software skills-->
     </section>
 
+    <hr>
     <section id="interests">
         <!--Interests-->
         <div>
             <h2>Interests</h2>
+            <details>
+                <summary>
+                    My interests
+                </summary>
+                <li>Painting</li>
+                <li>Movies</li>
+            </details>
 
         </div>
+        <!--Interests-->
+    </section>
+
+    <hr>
+    <section id="contact-me">
+        <!--Contact me-->
+        <div>
+            <h2>Contact me</h2>
+
+            <form action="/action_page.php"></form>
+            <input type="text" id="fname" name="fname" placeholder="Your name..."><br><br>
+            <input type="text" id="lname" name="lname" placeholder="Comapany name..."><br><br>
+
+            <textarea id="w3review" name="w3review" rows="4" cols="50"
+                placeholder="Write something..."></textarea><br><br>
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+        <!--Contact me-->
     </section>
 </body>
 
