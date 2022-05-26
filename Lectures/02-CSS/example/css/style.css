@@ -1,37 +1,69 @@
-h1 {
+/* 0.0.0.1.1  ---> 11 
+h1.child {
     color: red;
 }
 
-/* h1 {
-    color: green;
-}
-
-#titleId {
-    color: blue;
-}
-
-.titleClass {
-    color: pink;
+/* 1.0.0.1.0  ---> 10010*/  
+/* .child {
+    color: aqua !important;
 } */
 
-/* .boxModel {
-    background-color: aqua;
-    width: 200px;
-    height: 200px;
+/* 1.0.0.0.1 ---> 10001*/
+/* h1 {
+    color: blue !important;
+} */
+/* 0.0.1.0.0 ---> 100*/
+/* #titleId {
+    color: blueviolet;
+} */
+
+
+/* .navigation {
+    border: solid 1px green;
     margin: 50px;
-    padding: 25px 25px;
+}
+.navigation__link {
+    border: solid 1px red;
+    
+}
+.navigation_active {
+    border: solid 1px rgb(60, 0, 255);
+} */
+
+html {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 10vh;
+}
+.parent:hover {
+    background-color: black;
+}
+
+.boxModel {
+    box-sizing: border-box;
+    background-color: aqua; 
+    width: 50vw;
+    height: 50vh;
+    /* margin: 50px; */
+    padding: 20px;
     border: 5px solid hotpink;
+    border-radius: 30px;
+    display: inline-block;
 }
 
 .boxModel2 {
     box-sizing: border-box;
     background-color: red;
     width: 200px;
-    height: 200px;
+    height: 150px;
     margin: 50px;
-    padding: 25px 25px;
+    padding: 20px;
     border: 5px solid hotpink;
-} */
+    border-radius: 30px;
+    display: inline-block;
+}
 
 
 body * + * { margin-top: 1.5em;}
