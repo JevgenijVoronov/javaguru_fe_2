@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1> Forma Registracyi</h1>
+    </head>
+    <fieldset>
+        <label for="fname">Login</label>
+  <input type="text" id="login" name="login">
+  <label for="fname">Password</label>
+  <input type="text" id="password" name="password">
+    </fieldset>
+    <fieldser>
+        <legend style: font-color="yellow"> Addition info</legend>
+        <p style:important> Sex</p>
+        <br><form>
+            <input type="radio" id="m" name="sex" value="Male"/>
+            <label for="male">Male</label><br>
+            <input type="radio" id="f" name="sex" value="Female"/> 
+            <label for="female">Female</label><br>
+<p style:important> Date of Birth</p>
+</form>
+<form>
+    <input type="date" id="date" name="date" value="dd/mm/yyyy"/>
+</form>
+<br>
+<p style:important> Place of Residence</p>
+<form>
+    <lavel for="email">Enter your email:</label>
+    <input type="email" id="email" name="email">
+  </form>
+  
+</fieldset>
+<br>
+<fieldset>
+    <legend style: font-color="yellow"> Your hobby:</legend>
+    <div> Choose any amount pf hobbies</div>
+<form>
+<input type="checkbox" id="travel" name="hobby" value="travel"/>
+<label for="travel">Travel</label>
+<input type="checkbox" id="programming" name="hobby" value="programming"/> 
+<label for="programming">Coding</label><br>
+<input type="checkbox" id="art" name="hobby" value="art"/>
+<label for="tallinn">Art</label>
+<input type="checkbox" id="music" name="hobby" value="music"/>
+<label for="music">Playing music</label>
+</form>
+</fieldset>
+
+<fieldset>
+    <form>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="5">
+      </form>
+      <hr>
+      <label for="phone">Enter a phone number:</label>
+<input type="tel" id="phone" name="phone" placeholder="+371-2-1234567" pattern="+[0-9]{3}-[0-9]{1}-[0-9]{7}"/>
+</fieldset>
