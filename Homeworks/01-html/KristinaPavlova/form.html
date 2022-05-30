@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Форма регистрации</title>
+    </head>
+    <body>
+        <h1> Форма регистрации</h1>
+        <form action="" method="get" name="login">
+         <fieldset>
+         <label>Введите свой логин <input type="text" required autofocus></label>
+         <label>Введите пароль <input type="password" required></label>
+         </fieldset>
+         <fieldset width="500px">
+            <legend>Дополнительная информация о себе:</legend>
+            <h4>Укажите пол:</h4>
+            <input type="radio" name="sex" value="Женский" checked="checked"/>Женский<br/>
+            <input type="radio" name="sex" value="Мужской"/>Мужской<br/>
+            <h4>Укажите дату рождения:</h4>
+            <input type="date" name="date" max="2022-05-26" min="1922-05-26"><br>
+            <h4>Место проживания:</h4>
+            <select name="country">
+            <option>Выберите город проживания</option>
+            <option value="Елгава" >Елгава</option>
+            <option value="Рига">Рига</option>
+            <option value="Даугавпилс" >Даугавпилс</option>
+            <option value="Вентспилс" >Вентспилс</option>
+            <option value="Лиепая" >Лиепая</option>
+            </select>
+            </fieldset>
+            <fieldset>
+                <legend>Ваши хобби</legend>
+                <p>Можно выбрать любое количество увлечений</p>
+                <input type="checkbox" name="hobby" value="photography"/> Фотография
+                <input type="checkbox" name="hobby" value="tourism"/> Путешествия<br>
+                <input type="checkbox" name="hobby" value="calligraphy"/> Каллиграфия
+                <input type="checkbox" name="hobby" value="singing"/> Пение
+            </fieldset>
+        </select>
+
+         
+         <fieldset>
+             <legend>Очень важные вопросы</legend>
+             <h4>Выберите Вашу любимую цифру</h4>
+             <input type="number" name="number" min="0" max="9">
+             <h4>Введите желаемое имя пользователя<br></h4> 
+             <input type="text" name="username" placeholder="имя пользователя" pattern="[A-Za-z]{6,}[0-9]{3,}" title="Имя пользователя должно содержать минимум 6 заглавных и строчных букв и 3 цифры"/>
+             </fieldset>
+                <button type="submit">Отправить</button>
+             </form>
+    </body>
+</html>
