@@ -22,7 +22,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Дополнительная информация о себе</legend>
+                    <legend>Дополнительная информация о себе</legend>                   <!-- Можно добавить тег <mark> что бы получить желтый фон -->
 
                     <!-- radio button -->
                     <h2>Укажите пол</h2>
@@ -39,6 +39,13 @@
 
                     <!-- place of residence -->
                     <h2>Место проживания</h2>
+
+<!-- Здесь задумавылось использование datalist с опциями 
+    <datalist id="city">
+        <option value="Рига">
+        <option value="Елгава">
+    </datalist>
+-->
                     <label for="city">Ваш город</label>
                     <input type="text" name="city" id="city">
                 </fieldset>
@@ -48,6 +55,7 @@
                     <legend>Ваши хобби</legend>
                     <table>
                         <caption>Можно выбрать любое количество увлечений</caption>
+                        <!-- стоит добавить тег  <tbody> -->
                         <tr>
                             <td><input type="checkbox" name="travel" id="travel">
                                 <label for="travel">Путешествие</label>

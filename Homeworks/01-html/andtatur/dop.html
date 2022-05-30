@@ -6,15 +6,27 @@
 </head>
 
 <body>
-    <fieldset>
+    <!-- 
+        fieldset это часть формы структура документа должна быть следующей
+        <form>
+            <fieldset>
+
+            </fieldset>
+            <fieldset>
+
+            </fieldset>
+        </form>
+     -->
+
+    <fieldset>                                                                  
         <label for="fname">Login</label>
         <input type="text" id="login" name="login">
         <label for="fname">Password</label>
         <input type="text" id="password" name="password">
     </fieldset>
     <fieldset>
-        <legend style="background:yellow"> Additional info</legend>
-        <p style:important> Sex</p>
+        <legend style="background:yellow"> Additional info</legend>           <!-- Вместо style можно использовать тег <mark> -->
+        <p style:important> Sex</p>                                             <!-- style:important ничего не делает -->
         <br>
         <form>
             <input type="radio" id="m" name="sex" value="Male" />
@@ -23,12 +35,18 @@
             <label for="female">Female</label><br>
             <p style="font-weight:bold"> Date of Birth</p>
         </form>
-        <form>
-            <input type="date" id="date" name="date" value="dd/mm/yyyy" />
+        <form>                                                                  <!-- все поля это часть одной формы -->
+            <input type="date" id="date" name="date" value="dd/mm/yyyy" />      
         </form>
         <br>
-        <p style="font-weight:bold"> Place of Residence</p>
+        <p style="font-weight:bold"> Place of Residence</p>                     <!-- Вместо style можно использовать тег <b> -->
         <form>
+            <!-- Здесь стои использовать datalist c опциями
+                <datalist>
+                    <option value="Рига">
+                    <option value="Елгава">
+                </datalist>
+            -->
             <lavel for="email">Enter your email:</label>
                 <input type="email" id="email" name="email">
         </form>
@@ -36,10 +54,25 @@
     </fieldset>
     <br />
     <fieldset>
-        <legend style="background-color:yellow"> Your hobby:</legend>
+        <legend style="background-color:yellow"> Your hobby:</legend>        <!-- Вместо style можно использовать тег <mark> -->
         <div> Choose any amount pf hobbies</div>
         <form>
-            <input type="checkbox" id="travel" name="hobby" value="travel" />
+            <!-- 
+                Что бы расположить чекбоксы друг под другом ровненько можно использовать таблицу 2x2
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>checkbox here</td>
+                            <td>checkbox here</td>
+                        <tr>
+                        <tr>
+                            <td>checkbox here</td>
+                            <td>checkbox here</td>
+                        <tr>
+                    </tbody>
+                </table>
+            -->
+            <input type="checkbox" id="travel" name="hobby" value="travel" />               
             <label for="travel">Travel</label>
             <input type="checkbox" id="programming" name="hobby" value="programming" />
             <label for="programming">Coding</label><br>

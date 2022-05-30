@@ -18,7 +18,7 @@
                     <input type="password" name="password" id="password" required>
                 </fieldset>
                 <fieldset>
-                    <legend>Дополнительная информация о себе</legend>
+                    <legend>Дополнительная информация о себе</legend>           <!--можно использовать тег <mark> для получения желтого фона--->
 
                         <h2>Введите свое имя</h2>
                     <label for="city">Ваше имя</label>
@@ -35,6 +35,12 @@
                     <input type="date" name="birthday">
             
                         <h2>Место проживания</h2>
+<!-- Здесь стои использовать datalist c опциями
+    <datalist>
+        <option value="Рига">
+        <option value="Елгава">
+    </datalist>
+-->
                     <label for="city">Ваш город</label>
                     <input type="text" name="city" id="city">
              
@@ -43,6 +49,7 @@
                     <legend>Ваши хобби</legend>
                     <table>
                         <caption>Выберите несколько:</caption>
+<!-- контент таблицы стоит обернуть в <tbody> -->
                         <tr>
                             <td>
                                 <input type="checkbox">

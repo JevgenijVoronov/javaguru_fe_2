@@ -43,6 +43,12 @@
 
                     <!-- location -->
                     <h2>Место проживания</h2>
+<!-- Здесь стои использовать datalist c опциями
+    <datalist>
+        <option value="Рига">
+        <option value="Елгава">
+    </datalist>
+-->
                     <label for="city">Ваш город</label>
                     <input type="text" name="city" id="city">
                     <!-- location -->
@@ -53,6 +59,7 @@
                     <legend><mark>Ваши хобби</mark></legend>
                     <table>
                         <caption>Можно выбрать любое количество увлечений</caption>
+<!-- контент таблицы стоит обернуть в <tbody> -->
                         <tr>
                             <td>
                                 <input type="checkbox" name="travel" id="travel">
