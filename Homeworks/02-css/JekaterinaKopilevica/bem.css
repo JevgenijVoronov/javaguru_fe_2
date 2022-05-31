@@ -1,0 +1,51 @@
+.container {
+    width: 800px;
+    height: 1000px;
+    background-color: darkorchid;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+.button__color-primary {
+    background-color: blue;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button__color-danger {
+    background-color: red;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button__color-warning {
+    background-color: orange;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button__color-info {
+    background-color: lightblue;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button__color-success {
+    background-color: green;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button__size-large {
+    font-size: large;
+
+}
