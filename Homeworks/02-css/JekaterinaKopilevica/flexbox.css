@@ -2,7 +2,7 @@
   width: 500px;
   margin: 0 auto;
   box-sizing: border-box;
-  background-color: blueviolet;
+  background-color: gray;
 }
 
 
@@ -24,39 +24,52 @@
 .header__box-one {
   width: 75px;
   height: 90px;
-  background-color: green;
-
+  background-color: lightgray;
+  box-sizing: border-box;
+  padding: 5px 5px;
 }
 
 .header__box-two {
   width: 75px;
   height: 60px;
-  background-color: green;
+  background-color: lightgray;
+  box-sizing: border-box;
+  padding: 5px 5px;
 }
 
 .header__box-three {
   width: 75px;
   height: 180px;
-  background-color: green;
+  background-color: lightgray;
+  box-sizing: border-box;
+  padding: 5px 5px;
 }
 .header__box-four {
   width: 75px;
   height: 75px;
-  background-color: green;
+  background-color: lightgray;  
+  box-sizing: border-box;
+  padding: 5px 5px;
 }
 
 .footer__box {
   width: 75px;
   height: 75px;
-  background-color: aqua;
+  background-color: lightgray;
+  box-sizing: border-box;
+  padding: 5px 5px;
 }
 .footer__box {
   width: 75px;
   height: 75px;
-  background-color: aqua;
+  background-color: lightgray;
+  box-sizing: border-box;
+  padding: 5px 5px;
 }
 .footer__box {
   width: 75px;
   height: 75px;
-  background-color: aqua;
+  background-color: lightgray;
+  box-sizing: border-box;
+  padding: 5px 5px;
 }

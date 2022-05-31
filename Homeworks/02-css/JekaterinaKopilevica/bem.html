@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BEM</title>
     <link rel="stylesheet" href="./bem.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: black; margin: 0 auto; padding: 100px;">
+
     <div class="container">
         <div class="container__normal">
-            <h2>Normal size</h2>
+            <h3>Normal size</h3>
             <button class="button__size-normal button__color-primary">Primary style</button>
             <button class="button__size-normal button__color-danger">Danger style</button>
             <button class="button__size-normal button__color-warning">Warning style</button>
@@ -20,7 +26,7 @@
             <a href="/" class="normal-size">Link style</a>
         </div>
         <div class="container__large">
-            <h2>Large size buttons</h2>
+            <h3>Large size buttons</h3>
             <button class="button__size-large button__color-primary">Primary style</button>
             <button class="button__size-large button__color-danger">Danger style</button>
             <button class="button__size-large button__color-warning">Warning style</button>
@@ -28,8 +34,26 @@
             <button class="button__size-large button__color-success">Success style</button>
             <!-- <button class="button__size-large button__color-default">Default style</button> -->
         </div>
-        <div class="container__small"></div>
-        <div class="container__extra-small"></div>
+        <div class="container__small">
+            <h3>Small size</h3>
+            <button class="button__size-small button__color-primary">Primary style</button>
+            <button class="button__size-small button__color-danger">Danger style</button>
+            <button class="button__size-small button__color-warning">Warning style</button>
+            <button class="button__size-small button__color-info">Info style</button>
+            <button class="button__size-small button__color-success">Success style</button>
+            <button class="button__size-small button__color-default">Default style</button>
+            <a href="/" class="normal-size">Link style</a>
+        </div>
+        <div class="container__extra-small">
+            <h3>Extra small size</h3>
+            <button class="button__size-extra-small button__color-primary">Primary style</button>
+            <button class="button__size-extra-small button__color-danger">Danger style</button>
+            <button class="button__size-extra-small button__color-warning">Warning style</button>
+            <button class="button__size-extra-small button__color-info">Info style</button>
+            <button class="button__size-extra-small button__color-success">Success style</button>
+            <button class="button__size-extra-small button__color-default">Default style</button>
+            <a href="/" class="normal-size">Link style</a>
+        </div>
     </div>
 </body>
 </html>
