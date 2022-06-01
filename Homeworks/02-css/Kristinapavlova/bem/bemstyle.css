@@ -1,0 +1,56 @@
+.button{
+    
+    padding: 0.75em;
+    border-radius: 0.5em;
+    border: none;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Размер кнопок */
+.button__normal{
+font-size: medium;
+    
+}
+.button__large{
+    font-size: large;
+}
+
+.button_extrasmall{
+    font-size: x-small;
+}
+
+.button__small{
+    font-size: small;
+        
+ }
+
+
+/* Цвет кнопок*/
+
+.button__primary {
+    background-color: #4472C4;
+}.button__warning {
+    background-color: rgb(222, 132, 55);
+}.button__info {
+    background-color: rgb(32, 132, 162);
+}
+.button__success {
+    background-color: #70AD47;
+}
+.button__default {
+    background-color: none;
+}
+.button__link {
+ background-color:white; color:blue; padding: 15px 25px;
+}
+.button__danger{
+    background-color: #CC3300;
+}
+
+p {
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
