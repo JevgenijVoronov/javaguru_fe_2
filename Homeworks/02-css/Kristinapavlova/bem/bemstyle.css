@@ -31,24 +31,36 @@ font-size: medium;
 /* Цвет кнопок*/
 
 .button__primary {
-    background-color: #4472C4;
-}.button__warning {
-    background-color: rgb(222, 132, 55);
-}.button__info {
-    background-color: rgb(32, 132, 162);
+    background-color: #4472C4;          /*синий*/
 }
+
+.button__warning {
+    background-color: rgb(222, 132, 55); /*оранжевый*/
+}
+
+.button__info {
+    background-color: rgb(32, 132, 162);    /*голубой*/
+}
+
 .button__success {
-    background-color: #70AD47;
+    background-color: #70AD47;              /*зеленый*/
 }
-.button__default {
-    background-color: none;
+
+.button__default {                              /*стандартная*/
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    border-color: gray;
 }
 .button__link {
  background-color:white; color:blue; padding: 15px 25px;
 }
+
 .button__danger{
     background-color: #CC3300;
 }
+
+
 /* Название*/
 p {
     font-size: 14px;
