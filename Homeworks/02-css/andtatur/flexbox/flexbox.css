@@ -17,3 +17,8 @@
     line-height: 75px;
     font-size: 30px;
   }
+  body * + * { margin-top: 1.5em;}
+.container {
+  max-width: 300px;
+  max-height:600px;
+  margin: 0 auto;
