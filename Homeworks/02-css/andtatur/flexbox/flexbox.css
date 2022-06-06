@@ -6,7 +6,8 @@
     display: flex;
     flex-direction: row;
     background-color: gray;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center
 }
 .flex-container > div {
     background-color: lightgray;
