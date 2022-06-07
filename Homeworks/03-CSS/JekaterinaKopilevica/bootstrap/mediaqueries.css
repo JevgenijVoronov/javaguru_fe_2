@@ -1,0 +1,9 @@
+@media only screen and (max-width: 500px) {
+    .grid-item1,
+    .grid-item2,
+    .grid-item3 {
+      height: 100%
+  }
+  
+  
+  }
