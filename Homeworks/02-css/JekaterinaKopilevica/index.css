@@ -1,12 +1,9 @@
 html {
     margin: 2em;
-    font-size: 180%;
-  }
-  
-    
-  html {
+    font-size: 140%;
     font-family: avenir;
     line-height: 1.5;
+    background-color: plum;
   }
   .navbar {
     display: flex;
