@@ -24,18 +24,15 @@ font-size: medium;
 
 .button_small{
     font-size: small;
-        
+       
  }
-
 
 /* Цвет кнопок*/
 
-<<<<<<< Updated upstream
+
 .button_primary {
-=======
-.button__primary {
-<<<<<<< HEAD
->>>>>>> Stashed changes
+
+
     background-color: #4472C4;          /*синий*/
 }
 
@@ -61,10 +58,8 @@ font-size: medium;
  background-color:white; color:blue; padding: 15px 25px;
 }
 
-<<<<<<< Updated upstream
 .button_danger{
-=======
-=======
+
     background-color: #4472C4;
 }.button__warning {
     background-color: rgb(222, 132, 55);
@@ -80,17 +75,14 @@ font-size: medium;
 .button__link {
  background-color:white; color:blue; padding: 15px 25px;
 }
->>>>>>> c54370f (02_kristina_bem_ongoing)
+
 .button__danger{
->>>>>>> Stashed changes
+
     background-color: #CC3300;
 }
 
-<<<<<<< HEAD
-
 /* Название*/
-=======
->>>>>>> c54370f (02_kristina_bem_ongoing)
+
 p {
     font-size: 14px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
