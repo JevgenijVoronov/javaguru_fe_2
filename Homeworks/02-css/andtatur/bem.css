@@ -2,11 +2,11 @@
 @import './common.css';
 @import './havigation.css';
 .button {
-    padding: 0,5em 1em;
-    margin: 0,5em 1em;
-    border-radius: 15%;
+    padding: 0.5em 1em;
+    margin: 0.5em 1em;
+    border-radius: 4px;
     background-color: white;
-    border: 0,1em solid black;
+    border: 1px solid grey;
     cursor: pointer;
 }
 .button_normal-size {
