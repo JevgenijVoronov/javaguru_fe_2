@@ -1,0 +1,52 @@
+@import './reset.css';
+@import './common.css';
+@import './havigation.css';
+.button {
+    padding: 0,5em 1em;
+    margin: 0,5em 1em;
+    border-radius: 15%;
+    background-color: white;
+    border: 0,1em solid black;
+    cursor: pointer;
+}
+.button_normal-size {
+    font-size: 12px;
+}
+.button_large-size {
+    font-size: 16px;
+}
+.button_small-size{
+    font-size: 8px;
+}
+.button_extra-small{
+    font-size: 4px;
+}
+.button_primary-style {
+    background-color: blue;
+    border: blue;
+    color: white;
+}
+.button_danger-style {
+    background-color: red;
+    border: red;
+    color: white;
+}
+.button_warning-style {
+    background-color: orange;
+    border: orange;
+    color: white;
+}
+.button_info-style {
+    background-color: aqua;
+    border: aqua;
+    color: white;
+}
+.button_success-style{
+    background-color: seagreen;
+    border: seagreen;
+    color: white;
+}
+.button_link-style {
+    color: blue;
+    border: none;
+}

@@ -1,0 +1,25 @@
+@import './reset.css';
+@import './common.css';
+@import './havigation.css';
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.flex-container > div {
+    background-color: lightgray;
+    color: black;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  body * + * { margin-top: 1.5em;}
+.container {
+  max-width: 300px;
+  max-height:600px;
+  margin: 0 auto;
