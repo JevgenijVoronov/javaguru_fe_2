@@ -1,8 +1,28 @@
-.p {
-    color:red;
-    border: 10px;
+.body {background-color: rgb(0, 0, 0);
 }
 
-.div {
-    background-color: red;
+.container {
+    display: grid;
+    grid-template-columns: 4 4 4;
+    grid-template-rows: 50px;
 }
+
+.col1 {
+    background-color: red;
+    border: solid white 10px;
+    border-right: 0px;
+
+}
+.col2 {
+    background-color: #fdf61e;
+    border: solid white 10px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.col3 {
+    background-color: rgb(26, 133, 14);
+    border: solid white 10px;
+    border-left: 0px;
+}    
+
+
