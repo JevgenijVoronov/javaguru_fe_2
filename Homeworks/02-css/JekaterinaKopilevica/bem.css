@@ -1,0 +1,68 @@
+
+.container {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.button__color-primary {
+    background-color: blue;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button__color-danger {
+    background-color: red;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button__color-warning {
+    background-color: orange;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button__color-info {
+    background-color: lightblue;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button__color-success {
+    background-color: green;
+    color: aliceblue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button__color-default {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button__size-normal {
+    font-size: medium;
+}
+.button__size-large {
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button__size-small {
+    font-size: small;
+}
+.button__size-extra-small {
+    font-size: x-small;
+}
