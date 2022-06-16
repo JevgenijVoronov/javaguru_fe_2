@@ -10,11 +10,10 @@
 }
 
 /* Размер кнопок */
-.button__normal{
-font-size: medium;
-    
+.button__normal {
+    font-size: medium;
 }
-.button__large{
+.button__large {
     font-size: large;
 }
 
@@ -52,16 +51,30 @@ font-size: medium;
     border: 2px solid;
     border-color: gray;
 }
+
+/* Название*/
 .button__link {                                 /*ссылка*/
- background-color:white; color:blue; padding: 15px 25px;        
+    background-color:white; color:blue; padding: 15px 25px;        
 }
 
 .button__danger{
     background-color: #CC3300;
 }
-
-
-/* Название*/
+.button__warning {
+    background-color: rgb(222, 132, 55);
+}
+.button__info {
+    background-color: rgb(32, 132, 162);
+}
+.button__success {
+    background-color: #70AD47;
+}
+.button__default {
+    background-color: none;
+}
+.button__link {
+  background-color:white; color:blue; padding: 15px 25px;
+}
 p {
     font-size: 14px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
