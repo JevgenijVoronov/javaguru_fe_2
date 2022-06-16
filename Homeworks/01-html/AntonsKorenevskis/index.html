@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Antons Korenevskis | Даже не джун Front end developer">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+  </head>
+  <body>
+<!-- header -->
+<strong>Страница в процессе разработки</strong>
+
+<header>
+
+  <nav>
+    <a href="#skills">Мои навыки</a>
+    <a href="#faq">Вопросики</a>
+    <a href="#footer">Контакты</a>
+  </nav>
+</header>
+<!-- /header -->
+<!-- profile -->
+<hr>
+  <!-- img -->
+  <img src="C:\dev\javaguru_fe_2\Homeworks\00-intro\AntonsKorenevskis\img\profile.jpg" alt="фото профиля" style="height:200px;">
+  <!-- /img -->
+<h1>Antons Korenevskis</h1>
+<!-- quote -->
+<p>
+  <q>
+   Как швейцарский нож я умею все, но намного хуже, чем предназначенные для этого инструменты 
+  </q>- Антон К.
+</p>
+<!--  /quote -->
+<a id="skills"></a>
+<main>
+  <h3>Навыки</h3>
+  <p><strong>Раздел навыков, как и сами навыки, находится в разработке</strong></p>
+  <!-- progress -->
+  <progress value="13" max="100"></progress>
+  <!-- /progress -->
+  <ul>
+    <li>видел html</li>
+    <li>слышал о css</li>
+    <li>снился JavaScript</li>
+  </ul>
+  </main>
+<!-- /profile -->
+<!-- details summary -->
+  <hr>
+  <h2>ЧаВо</h2>
+  <a id="faq"></a>
+  <details>
+    <summary>Что есть «я»?</summary>
+    <p>Хз</p>
+  </details>
+  <details>
+    <summary>Что есть истина?</summary>
+    <p>Хз</p>
+  </details>
+  <details>
+    <summary>Что есть жизнь?</summary>
+    <p>Хз</p>
+  </details>
+  <details>
+    <summary>Главный вопрос жизни, Вселенной и всего такого?</summary>
+    <p>42</p>
+  </details>
+<!-- /details summary -->
+<hr>
+<!-- reg -->
+<section id="register">
+    <h2>Форма регистрации</h2>
+
+    <form action="action_page.php">
+        <fieldset>
+          <label for="name">Введите свой логин:</label>
+          <input type="text" name="login" id="login" required>
+          <label for="pass">Введите свой пароль:</label>
+          <input type="password" name="password" id="pass" required>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Дополнительная информация</legend>
+          <p><strong>Укажите пол:</strong></p>
+          <input type="radio" id="male" name="sex" value="male">
+          <label for="male">Мужской</label><br>
+          <input type="radio" id="female" name="sex" value="female">
+          <label for="female">Женский</label>
+          <br>
+          <p><strong>Укажите дату рождения:</strong></p>
+          <input type="date" id="birthday" name="birthday">
+          <br>
+          <p><strong>Укажите место проживания:</strong></p>
+          <label for="name">Ваш город:</label>
+          <input type="text" city="city" id="city" required>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Ваши хобби</legend>
+          <table>
+            <em>Можно выбрать любое количество</em>
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" id="hobbie1" name="hobbie1" value="Bike"><label for="hobbie1">Путешествие</label></td>
+                <td><input type="checkbox" id="hobbie3" name="hobbie3" value="Boat"><label for="hobbie3">Программирование</label></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" id="hobbie2" name="hobbie2" value="Car"><label for="hobbie2">Рисование</label></td>
+                <td><input type="checkbox" id="hobbie4" name="hobbie4" value="Boat"><label for="hobbie4">Музыка</label></td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Творческое задание</legend>
+          <p><strong>Напишите хокку</strong></p>
+          <textarea id="subject" name="subject" placeholder="..." style="width: 200px; height:100px"></textarea>
+          <br><br>
+          <input type="submit" value="Отправить">     
+        </fieldset>
+    </form>
+</section>
+<!-- /reg -->
+<!-- footer -->
+<hr>
+<h2>Футер</h2>
+<a id="footer"></a>
+<article>
+  <footer>
+    <address>
+      <p>Обратная связь: <a href="mailto:antons.korenevskis@gmail.com">antons.korenevskis@gmail.com</a>.</p>
+    </address>
+  </footer>
+</article>
+<!-- /footer -->
+  </body>
+</html>

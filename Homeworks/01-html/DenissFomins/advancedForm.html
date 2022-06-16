@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Тестовая форма для практики</title>
+        <style>
+            h3 {
+                color: blue;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 150%;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <ul class="menu">
+                <li><a href="index.html">Простая форма</a></li>
+                <li><a href="advancedForm.html">Более сложная форма</a></li>
+            </ul>
+        </header>
+        <article id="contentId">
+            <link href="style.css" rel="stylesheet">
+            <style>
+                body {
+                    background-color: rgb(240, 224, 180);
+                }
+            </style>
+            
+            <hr>
+            <h2 style="color:rgb(15, 129, 95);">Более сложная форма для пользователя</h2>
+            <form action="actionNotImplemented" method="get">
+                <fieldset>
+                    <legend><h3>Персональные данные</h3></legend>
+                    <label for="name">Введите свое имя</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="secondName">Введите фамилию</label>
+                    <input type="text" name="secondName" id="secondName" required>
+
+                    <hr>
+                    <legend><b>Укажите ваш пол</b></legend>
+                    <label for="gender">Ваш пол</label>
+                    <select name="gender" id="gender">
+                        <option value="man">Мужской</option>
+                        <option value="femail">Женский</option>
+                    </select>
+
+                    <hr>
+                    <legend><b>Укажите дату рождения</b></legend>
+                    <label for="dateOfBirthday">Дата рождения</label>
+                    <input type="date" name="dateOfBirthday" id="dateOfBithday" required>
+                    <hr>
+
+                    <legend><b>Укажите контактную информацию</b></legend>
+                    <label for="address">Ведите фактический адрес</label>
+                    <input type="text" name="address" id="address" required>
+                    <label for="mobileNumber">Введите номер телефона</label>
+                    <input type="tex" name="mobileNumber" id="mobileNumber" required>
+                    <label for="email">Введите е-мейл</label>
+                    <input type="text" name="email" id="email" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h3>Укажите ваши увлечения</h3></legend>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="hobby1">Спорт</label>
+                                    <input type="checkbox" name="hobby1" id="hobby1" value="sport">
+                                </td>
+                                <td>
+                                    <label for="hobby2">Путешествия</label>
+                                    <input type="checkbox" name="hobby2" id="hobby2" value="travel">
+                                </td>
+                                <td>
+                                    <label for="hobby3">Компьютерные игры</label>
+                                    <input type="checkbox" name="hobby3" id="hobby3" value="gaming">
+                                </td>
+                            </tr>
+                            <tr>
+                                <label for="addHobbyByUser">Укажите свое хобби </label>
+                                <input type="text" name="addHobbyByUser" id="addHobbyByUser">
+                            </tr>
+                            <hr>
+                        </tbody>
+                    </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h3>Дополнительная информация</h3></legend>
+                    <label for="userDescription">Опишите свои сильные и слабые стороны: </label>
+                    <textarea name="userDescription" id="userDescription" rows="10" cols="50">Введите текст здесь</textarea>
+                </fieldset>
+
+                <fieldset>
+                    <button type="submit" style="font-family: Impact;">Отправить форму</button>
+                </fieldset>
+            </form>
+
+
+        </article>
+       
+    </body>
+</html>

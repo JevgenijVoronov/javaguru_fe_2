@@ -10,11 +10,10 @@
 }
 
 /* Размер кнопок */
-.button_normal{
-font-size: medium;
-    
+.button__normal {
+    font-size: medium;
 }
-.button_large{
+.button__large {
     font-size: large;
 }
 
@@ -22,48 +21,49 @@ font-size: medium;
     font-size: x-small;
 }
 
-.button_small{
+.button__small{
     font-size: small;
-       
+        
  }
+
 
 /* Цвет кнопок*/
 
-
-.button_primary {
-
-
+.button__primary {
     background-color: #4472C4;          /*синий*/
 }
 
-.button_warning {
+.button__warning {
     background-color: rgb(222, 132, 55); /*оранжевый*/
 }
 
-.button_info {
+.button__info {
     background-color: rgb(32, 132, 162);    /*голубой*/
 }
 
-.button_success {
+.button__success {
     background-color: #70AD47;              /*зеленый*/
 }
 
-.button_default {                              /*стандартная*/
+.button__default {                              /*стандартная*/
     background-color: white;
     color: black;
     border: 2px solid;
     border-color: gray;
 }
-.button_link {
- background-color:white; color:blue; padding: 15px 25px;
+
+/* Название*/
+.button__link {                                 /*ссылка*/
+    background-color:white; color:blue; padding: 15px 25px;        
 }
 
-.button_danger{
-
-    background-color: #4472C4;
-}.button__warning {
+.button__danger{
+    background-color: #CC3300;
+}
+.button__warning {
     background-color: rgb(222, 132, 55);
-}.button__info {
+}
+.button__info {
     background-color: rgb(32, 132, 162);
 }
 .button__success {
@@ -73,16 +73,8 @@ font-size: medium;
     background-color: none;
 }
 .button__link {
- background-color:white; color:blue; padding: 15px 25px;
+  background-color:white; color:blue; padding: 15px 25px;
 }
-
-.button__danger{
-
-    background-color: #CC3300;
-}
-
-/* Название*/
-
 p {
     font-size: 14px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;

@@ -1,0 +1,57 @@
+PERSONAS DATI:
+ ●	Vārds, uzvārds: Lilija G.
+ ●	Professija:     Programmētāja
+ ●	Tālrunis:       +371 29375097
+ ●	E-pasts:        lgj@inbox.lv
+
+DARBA PIEREDZE:
+●	09.1996. - šodien:      programmētāja               A/S “VENTBUNKERS”.
+●	07.2017. - šodien:      programmētāja               A/S “Baltijas Ekspresis”.
+●	08.2019. - 12.2020.     programmētāja               SIA “NAVISOFT”.
+●	11.2014. - 11.2018.     programmētāja               SIA “OSTAS CELTNIEKS”.
+●	04.2014. - 06.2014.  	programmētāja               SIA “E-PASAULE”.
+●	05.2007. - 11.2008. 	programmētāja          	    SIA “ŪDEKA”.
+●	08.2006. - 05.2011.  	programmētāja       	    SIA “R.E.D. PRO”.
+●	06.2006. - 03.2011.  	programmētāja               A/S “VENCEB”.
+●	10.2003. - 09.2005.  	programmētāja               SIA “ŪDEKA”.
+●	01.2000. - 07.2003.  	programmētāja               SIA “VENTAMARINE”.
+●	06.2000. - 11.2000. 	programmētāja               A/S “HANSABANKA”.
+●	09.1996. - 06.2000. 	programmētāja               A/S “Ventspils Apvienotā Baltijas Banka” (amatu apvienošanas kārtībā).
+●	07.1993. - 08.1996. 	programmētāja               A/S “Ventspils Apvienotā Baltijas Banka” (pastavīgā darbā).
+●	02.1994. - 08.1996. 	programmētāja               A/S “VENTBUNKERS” (amatu apvienošanas kārtībā).
+●	1992. - 1994.           programmētāja               SIA “VENOIL Ltd.” (amatu apvienošanas kārtībā).
+●	1991. - 1993.           inženiere-programmētāja	    Latvijas Banka “Vindavas” nodaļā.
+●	1988. - 1991.           inženiere-programmētāja	    Ventspils Statistikas Pārvaldes skaitļošanas centrā.
+●	1985. - 1986.           sekretāre–mašīnrakstītāja   RPI Automatizētās Sistēmas vadības katedrā.
+
+IZGLĪTĪBA:
+●	10.2004. - 06.2005.     BIZNESA KOMPLEKSS KIF SIA „Praktiskā grāmatvedība atbilstoši Latvijas un Starptautiskiem normatīviem dokumentiem” kurss - saņemta apliecība par profesionālās pilnveides izglītību (Sērija PB Nr.003398);
+●	1982. - 1986.           iegūts inženiera diploms ar kvalifikāciju lietišķā matemātika Rīgas politehniskajā institūtā, Automātikas un skaitļošanas tehnikas fakultātē.
+●	1972. - 1982.           Ventspils 3.vidusskolā.
+
+PAPILDUS IZGLĪTĪBA, KURSI:
+●	10.2020. - 02.2021.	    “JAVA 2 –AGILE WEB DEVELOPMENT”, SIA “JavaGuruLV”.
+●	07.2020. - 11.2020.	    “JAVA 1 – INTRODUCTION TO JAVA”, SIA “JavaGuruLV”.
+●	12.2017. - 12.2017.	    “Microsoft kurss 20483, Programmēšana C#”, SIA “Baltijas datoru akadēmija”, Rīgā.
+●	10.2011. - 11.2011.	    “Microsoft SQL Server 2008 datubāžu uzturēšana”, SIA “Baltijas datoru akadēmija”, Rīgā.
+●	11.2008. - 11.2008.	    “Microsoft NAVISION” programmēšana, A/S “Datorzinību centrs”, Rīgā.
+●	05.2008. - 05.2008.	    “Microsoft NAVISION” programmēšana, “Microsoft NAVISION DPBC”, SIA “Elva Baltic”, Rīgā.
+●	09.2007. - 09.2007.	    “Microsoft Windows XP Professional instalēšana un uzturēšana”, SIA “Baltijas datoru akadēmija”, Rīgā.
+●	10.2005. - 10.2005.	    “Microsoft Business Solutions - Navision 4.0 Development II”, A/S “Datorzinību centrs”, Rīgā.
+●	10.2004. - 10.2004.	    “Microsoft SQL Server 2000 administrating” - Kurss 2072 - Baltijas Datoru Akadēmijā, Rīgā.
+●	03.2004. - 03.2004.	    “LiveLink System Administration” SIA “Opticom” (Open Text Corporation Training Session), Ventspilī.
+●	03.2004. - 03.2004.	    “Microsoft SQL Server 2000 programming” - Kurss 2073 - Baltijas Datoru Akadēmijā, Rīgā.
+●	04.2003. - 04.2003.	    “Microsoft Business Solutions-Navision programming”, Microsoft Business Solutions Baltic, Rīgā.
+●	01.2002. - 01.2002.	    “Querying Microsoft SQL Server with Transact-SQL” - Kurss 2071 - Baltijas Datoru Akadēmijā, Rīgā.
+●	01.2002. - 01.2002.	    “Mastering distributed application design & development using Microsoft Visual Studio 6.0” - Kurss 1298 - Baltijas Datoru Akadēmijā, Rīgā.
+●	03.2000. - 04.2000.	    “Visual Basic 6.0 Development” - Kurss 1013 - SIA “Soft-Tronik” Rīgā.
+●	06.1994. - 07.1994.	    “Micro Data Base System IV – pielietošana Somijas banku sfērā” “UNIC” centrā, Helsinki, Somijā.
+●	06.1993. - 07.1993.	    “Grāmatvedība” Ventspils specializētā skolā.
+●	01.1991. - 02.1991.	    “Datu bāzes dBase III PLUS, Clipper Summer’87, FoxBase+ 2.10”.
+●	04.1989. - 07.1989.	    “Ekonomiskās informācijas apstrādes organizēšana, Kobol, Assembler” R/A “Sigma”, Viļņā, Lietuvā.
+
+CITAS PRASMES: 
+●	krievu valoda           dzimtā,
+●	latviešu valoda         pārvaldu brīvi,
+●	angļu valoda            sarunu valodas līmenī
+●	autovadītāja apliecība 	B kategorija

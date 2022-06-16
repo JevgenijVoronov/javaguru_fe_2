@@ -1,0 +1,27 @@
+   hr {
+       margin-top: 64px;
+   }
+
+   img {
+       float: left;
+       height: inherit;
+       margin-right: 10px;
+   }
+
+   text {
+       color: grey;
+   }
+
+   nav {
+       margin-bottom: 40px;
+   }
+
+   nav a {
+       color: #8338ec;
+       padding: 16px;
+       display: inline-block;
+   }
+
+   body {
+       background-color: rgb(245, 248, 248);
+   }

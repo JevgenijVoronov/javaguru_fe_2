@@ -22,7 +22,8 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Дополнительная информация о себе</legend>
+                    <legend><mark>Дополнительная информация о себе</mark></legend>
+                    <!-- Можно добавить тег <mark> что бы получить желтый фон -->
 
                     <!-- radio button -->
                     <h2>Укажите пол</h2>
@@ -39,15 +40,33 @@
 
                     <!-- place of residence -->
                     <h2>Место проживания</h2>
-                    <label for="city">Ваш город</label>
-                    <input type="text" name="city" id="city">
+
+                    <!-- Здесь задумавылось использование datalist с опциями 
+                    <datalist id="city">
+                    <option value="Рига">
+                    <option value="Елгава">
+                    </datalist>-->
+                    
+                    <!-- <label for="city">Ваш город</label>
+                    <input type="text" name="city" id="city"> -->
+
+                    <input list="city">
+                    <datalist id="city">
+                        <option value="Riga"></option>
+                        <option value="Liepaja"></option>
+                        <option value="Ventspils"></option>
+                        <option value="Daugavpils"></option>
+
+                    </datalist>
+
                 </fieldset>
 
                 <fieldset>
                     <!-- hobby -->
-                    <legend>Ваши хобби</legend>
+                    <legend><mark>Ваши хобби</mark></legend>
                     <table>
                         <caption>Можно выбрать любое количество увлечений</caption>
+                        <!-- стоит добавить тег  <tbody> -->
                         <tr>
                             <td><input type="checkbox" name="travel" id="travel">
                                 <label for="travel">Путешествие</label>
@@ -69,7 +88,7 @@
 
                 <!-- my test form -->
                 <fieldset>
-                    <legend>Своё поле</legend>
+                    <legend><mark>Своё поле</mark></legend>
                     <hr>
                     <label for="name-login">Enter name or login</label><br>
                     <input type="text" name="name-login" id="name-login" required><br>
