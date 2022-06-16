@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    background-image: url(../img/background-2.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+section {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}

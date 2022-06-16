@@ -1,0 +1,35 @@
+.flexbox-container {
+    width: 600px;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+.box {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 20px;
+
+}
+
+.box1 {
+    height: 120px;
+}
+
+.box2 {
+    height: 80px;
+}
+
+.box3 {
+    height: 200px;
+}
+
+h2{
+    padding-left: 15px;
+}
