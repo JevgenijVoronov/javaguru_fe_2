@@ -1,0 +1,13 @@
+.nav {
+display: flex;
+flex-wrap: wrap;
+align-content: stretch;
+justify-content: space-around;
+background-color: var(--main-color);
+color: rgb(36, 6, 6);
+font-size: 22px;
+}
+.nav__link_active {
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+}

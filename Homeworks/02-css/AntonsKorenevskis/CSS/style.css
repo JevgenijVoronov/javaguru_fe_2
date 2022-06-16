@@ -1,0 +1,7 @@
+@import './reset.css';
+@import './navigation.css';
+@import './text.css';
+
+html {
+    background-color: lightcyan;
+}
