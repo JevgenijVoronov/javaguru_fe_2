@@ -1,0 +1,26 @@
+:root {
+    --main-color: yellow;
+    --secondary-color: rgb(36, 6, 6);
+
+}
+
+html {
+    background-color:rgb(36, 6, 6);
+    font-size: 18px;
+    color: yellow;
+}
+h1 {
+    color: whitesmoke;
+    font-size: 44px;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    color:whitesmoke;
+    font-size: 24px;
+    font-style: bold;
+    text-align: center;
+
+}
+
