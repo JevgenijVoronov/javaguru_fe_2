@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <style>
+        h4 {
+            margin-top: 0px;
+            margin-bottom: 8px;
+        }
+
+        legend {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Форма Регистрации</h1>
+    </header>
+
+    <!--1lvl-->
+    <section>
+        <form action="">
+            <fieldset>
+                <br>
+
+                <label for="login">Введите логин</label>
+                <input type="text">
+
+                <label for="password">Введите пароль</label>
+                <input type="password">
+                <br><br>
+
+            </fieldset>
+        </form>
+    </section>
+    <!--1lvl-->
+
+    <!--2lvl-->
+    <br>
+    <section>
+        <form action="">
+            <fieldset>
+
+                <legend>Дополнительная инфомация о себе</legend>
+
+                <h4>Укажите пол</h4>
+
+                <input type="radio" id="women" name="gender" value="women">
+                <label for="women">Женский</label><br>
+
+                <input type="radio" id="men" name="gender" value="men">
+                <label for="men">Мужской</label><br>
+
+                <br>
+
+                <h4>Укажите дату рождения</h4>
+
+                <label for="birthday">День рождения</label>
+                <input type="date" id="birthday" name="birthday"><br>
+
+                <br>
+
+                <h4>Место проживания</h4>
+
+                <label for="city-select">Ваш город</label>
+
+                <select name="city" id="city-select">
+                    <optgroup label="Латвия">
+                        <option value="Рига">Рига</option>
+                        <option value="Вентспилс">Вентспилс</option>
+                </select>
+                </optgroup><br>
+
+                <br>
+
+            </fieldset>
+        </form>
+    </section>
+    <!--2lvl-->
+
+    <!--3lvl-->
+    <br>
+    <section>
+        <form action="">
+            <fieldset>
+
+                <legend>Ваши хобби</legend>
+
+                <h4> Можно выбрать любое количество увлечений</h4>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="travel" name="travel" value="travel">
+                            <label for="travel">Путешествия</label><br>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="programming" name="programming" value="programming">
+                            <label for="programming">Програмировать</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="paint" name="paint" value="paint">
+                            <label for="paint">Рисовать</label><br>
+                        </td>
+                        <td>
+
+                            <input type="checkbox" id="musical-instruments" name="musical-instruments"
+                                value="musical-instruments">
+                            <label for="musical-instruments">Играть на музыкальных инструментах</label><br>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+            </fieldset>
+        </form>
+    </section>
+    <!--3lvl-->
+
+    <br>
+    <!--4lvl-->
+    <section>
+        <form action="">
+            <fieldset>
+
+                <legend>Моя любимая музыка</legend>
+
+                <h4>Музыка 1</h4>
+
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/3zT42LxWW5YUFEZDukGp5x?utm_source=generator" width="250"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <br><br>
+
+                <h4>Музыка 2</h4>
+
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/1Avnd5xLg7HmaNofmYk7RQ?utm_source=generator" width="250"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+                <br><br>
+            </fieldset>
+        </form>
+    </section>
+    <!--4lvl-->
+
+    <br>
+    <button type="submit">Отправить</button>
+
+</body>
+
+</html>

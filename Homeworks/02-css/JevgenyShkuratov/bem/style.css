@@ -1,0 +1,70 @@
+:root {
+  --button_color-primary: #2965A8;
+  --button_color-danger: #CE3C3E;
+  --button_color-warning: #EB9E3E;
+  --button_color-info: #4CB3D6;
+  --button_color-succsess: #4EAD4A;
+  --button_color-default: #FFFFFF;
+}
+
+.button {
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.button:hover {
+  background-color: lightgray;
+}
+
+.button_size_normal {
+  font-size: normal;
+  padding: 10px;
+}
+
+.button_size_large {
+  font-size: large;
+  padding: 12px;
+}
+
+.button_size_small {
+  font-size: small;
+  padding: 8px;
+}
+
+.button_size_extra-smalll {
+  font-size: x-small;
+  padding: 5px;
+}
+
+
+.button_color-primary {
+  background-color: var(--button_color-primary);
+}
+
+.button_color-danger {
+  background-color: var(--button_color-danger);
+}
+
+.button_color-warning {
+  background-color: var(--button_color-warning);
+}
+
+.button_color-info {
+  background-color: var(--button_color-info);
+}
+
+.button_color-succsess {
+  background-color: var(--button_color-succsess);
+}
+
+.button_color-default {
+  background-color: var(--button_color-default);
+  color: black;
+}
+
+.button_color-link {
+  color: var(--button_color-primary);
+  background-color: #FFF;
+  border: none;
+}

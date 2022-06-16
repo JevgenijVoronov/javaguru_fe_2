@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <article>
+        <h1>Форма регистрации</h1>
+            <form action="#" method="get">
+                <fieldset>
+                    <label for="login">Введите логин:</label>
+                    <input type="text" name="login" id="login" required>
+                    <label for="password">Введите пароль:</label>
+                    <input type="password" name="password" id="password" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Дополнительная информация о себе</legend>           <!--можно использовать тег <mark> для получения желтого фона--->
+
+                        <h2>Введите свое имя</h2>
+                    <label for="city">Ваше имя</label>
+                    <input type="text" name="city" id="city">
+
+                        <h2>Укажите пол</h2>
+                    <input type="radio" name="gender" value="Мужской">
+                    <label for="gender">Мужской</label><br>
+                    <input type="radio" name="gender" value="Женский">
+                    <label for="gender">Женский</label>
+             
+                        <h2>Укажите дату рождения</h2>
+                    <label for="birthday">День рождения</label>
+                    <input type="date" name="birthday">
+            
+                        <h2>Место проживания</h2>
+<!-- Здесь стои использовать datalist c опциями
+    <datalist>
+        <option value="Рига">
+        <option value="Елгава">
+    </datalist>
+-->
+                    <label for="city">Ваш город</label>
+                    <input type="text" name="city" id="city">
+             
+                </fieldset>
+                <fieldset>
+                    <legend>Ваши хобби</legend>
+                    <table>
+                        <caption>Выберите несколько:</caption>
+<!-- контент таблицы стоит обернуть в <tbody> -->
+                        <tr>
+                            <td>
+                                <input type="checkbox">
+                                <label >Животные</label>
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <label>Автомобили</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" >
+                                <label>Коллекционирование</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" >
+                                <label>Спорт</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox">
+                                <label>Музыка</label>  
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <label>Рукоделие</label>  
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Коротко о себе</legend>
+                    <hr>
+                    <label for="story">Расскажите о себе:</label>
+                    <textarea id="story" name="story" rows="5" cols="33"></textarea>
+                    <hr>
+                </fieldset>
+                
+                <input type="submit" value="Отправить">
+
+            </form>
+    </article>  
+</body>
+</html>

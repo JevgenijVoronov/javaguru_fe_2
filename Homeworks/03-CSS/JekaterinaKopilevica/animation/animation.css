@@ -1,0 +1,45 @@
+.circle {
+    display: flex;
+    height: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.circle__animation {
+    background-color: lightgray;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 50%;
+
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    animation: color-change 1s alternate linear infinite; 
+}
+
+.circle__animation_2 {
+    animation-delay: 0,6s;
+}
+.circle__animation_3 {
+    animation-delay: 1s;
+}
+
+@keyframes color-change {
+    from {
+        background-color: lightgray;
+    }
+    to {
+        background-color: gray;
+    } 
+}
+
+@keyframes preloader {
+    50%{
+        opacity: 0;
+        transform: scale(1) translateY(10px);
+    }
+}
