@@ -1,0 +1,38 @@
+.animation {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.animation_pic {
+    background-color: lightgrey;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 50%;
+    animation-duration: 0.4s;
+    animation-iteration-count: linear;
+    animation: color_change 1s alternate linear infinite;
+}
+
+.pic_2 {
+    animation-delay: 0.8s;
+    animation-play-state: 0.4s;
+}
+
+.pic_3 {
+    animation-delay: 1.2s;
+    animation-play-state: 0.4s;
+}
+
+@keyframes color_change {
+    from {
+        background-color: lightgrey;
+    } to {
+        background-color: grey;
+        transform: scale(1.2, 1.2);
+    }
+}
