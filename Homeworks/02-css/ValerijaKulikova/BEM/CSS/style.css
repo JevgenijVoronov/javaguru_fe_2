@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+* {
+    font-family:   Arial;
+    margin: 1px;
+}
+
+.primary-style {
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.danger-style {
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.warning-style {
+    background-color: orange;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.info-style {
+    background-color: lightblue;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.success-style {
+    background-color: green;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.default-style {
+    border: 0,5px solid black;
+    color: black;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    
+}
+
+.normal-size {
+    width: max-content;
+    height: 30px;
+    font-size: medium;
+    
+}
+
+.large-size {
+    width: max-content;
+    height: 40px;
+    font-size: large;
+    
+}
+
+.small-size {
+    width: max-content;
+    height: 25px;
+    font-size: small;
+}
+
+.extra-small-size {
+    width: max-content;
+    height: 20px;
+    font-size: x-small;
+}

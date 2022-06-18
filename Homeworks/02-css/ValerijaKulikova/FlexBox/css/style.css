@@ -1,0 +1,51 @@
+.container {
+ 
+    background-color: grey;
+    width: 650px;
+    font-size: xx-large;
+    box-sizing: border-box;
+
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+   
+}
+
+.box {
+    background-color: lightgrey;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.box-1 {
+    width: 110px;
+    height: 130px;
+}
+
+.box-2 {
+    width: 110px;
+    height: 70px;
+
+
+}
+
+.box-3 {
+    width: 110px;
+    height: 300px;
+
+}
+
+.box-4 {
+    width: 110px;
+    height: 110px;
+
+}
+
+.box-5 {
+    width: 110px;
+    height: 110px;
+}
