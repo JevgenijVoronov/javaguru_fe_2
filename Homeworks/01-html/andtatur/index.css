@@ -1,6 +1,7 @@
 html{
     background-attachment: fixed;
     background-color: rgb(4, 4, 4);
+    /* стоит поменять цвет шрифта на белый */
 }
 .a{
     background-color: black;

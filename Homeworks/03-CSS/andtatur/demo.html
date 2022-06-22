@@ -8,9 +8,20 @@
 
 <body>
     <div class="flex-container" width="12px">
-        <div animation-delay: 0s></div>
+        <div animation-delay: 0s></div> <!-- animation-delay сдесь не на что не влияет-->
         <div animation-delay: 2s></div>
         <div animation-delay: 4s></div>
+
+        <!-- можно пойти двумя путями 1: -->
+
+        <!-- <div style="animation-delay: 0s"></div>
+        <div style="animation-delay: 1s"></div>
+        <div style="animation-delay: 2s"></div> -->
+
+        <!--  2: добавить всем элементам по классу -->
+        <!-- <div class="item-1"></div>
+        <div class="item-2"></div>
+        <div class="item-3"></div> -->
     </div>
 </body>
 
