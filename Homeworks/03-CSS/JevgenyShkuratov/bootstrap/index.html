@@ -15,19 +15,49 @@
 <body>
 
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4 col- column column-1 gx-5">
+        <div class="row gx-5">
+            <div class="col-sm-4 col- column column-1 ">
                 Column 1
             </div>
-            <div class="col-sm-4 col- column column-2 gx-5">
+            <div class="col-sm-4 col- column column-2 ">
                 Column 2
             </div>
-            <div class="col-sm-4 col- column column-3 gx-5">
+            <div class="col-sm-4 col- column column-3 ">
                 Column 3
             </div>
         </div>
     </div>
 
+    <!-- gx-5 это класс для добавления промежутков межку наших колонок
+            https://getbootstrap.com/docs/5.0/layout/gutters/
+
+            по сути наши paddings
+
+            ???????? - по чем в Вашем примере их не видно
+            дело в том что Вы залили цветом всю колонку целиком 
+            включая и отступы от полей 
+            
+            все в порядке gx-5 работает только нужно было залить цветом не всю колонку
+            а её контент
+
+            ниже пример
+            можно раскоментрировать и посмотреть где у нас блок и где сам контент
+            если поиграться с значением для gx то можно увидеть как меняеться отступ
+    -->
+
+    <!-- <div class="container">
+        <div class="row gx-5">
+            <div class="col-sm-4 col- column column-1 ">
+                <div style="border: solid 2px pink;">Column 1</div>
+            </div>
+            <div class="col-sm-4 col- column column-2 ">
+                <div style="border: solid 1px pink;">Column 2</div>
+            </div>
+            <div class="col-sm-4 col- column column-3 ">
+                <div style="border: solid 2px pink;">Column 3</div>
+            </div>
+        </div>
+    </div> -->
 
 </body>
 
