@@ -35,19 +35,19 @@
     }
 }
 
-.container-animation__item-1 {
+.container-animation__item_1 {
     animation-delay: 0.5s;
     animation-duration: 1.5s;
 
 }
 
-.container-animation__item-2 {
+.container-animation__item_2 {
     animation-delay: 1s;
     animation-duration: 1.5s;
 
 }
 
-.container-animation__item-3 {
+.container-animation__item_3 {
     animation-delay: 1.5s;
     animation-duration: 1.5s;
 
