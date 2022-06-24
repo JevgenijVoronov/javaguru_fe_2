@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <article id="content">
+        <h1>Форма Регистрации</h1>
+        <form action="" method="get" name="login">
+            <fieldset>
+                
+                <!-- Атрибут <required> является логическим атрибутом. Если он присутствует,
+                     он указывает, что поле ввода должно быть заполнено перед отправкой формы. -->
+                <label for="login">Введите свой логин:</label>
+                <input type="login" name="login" id="login" required>
+
+                <label for="password"> Введите пароль:</label>
+                <input type="password" name="password" id="password" required>
+            </fieldset>
+            <br>
+
+            <fieldset>
+
+                <!-- <mark> определяет текст, который должен быть помечен или выделен.-->
+                <legend><mark><b> Дополнительная инфомация о себе: </b></mark></legend>
+
+                <h3>Укажите пол:</h3>
+                <input type="radio" name="sex" value="male">
+                <label for="sex">Мужской</label><br>
+
+                <input type="radio" name="sex" value="female">
+                <label for="sex">Женский</label><br>
+
+                <h3>Укажите дату рождения:</h3>
+                <label for="birthday">День рождения:</label>
+                <input type="date" name="birthday">
+
+                <h3>Место проживания:</h3>
+                <label for="selectCountry">Ваш город:</label>
+                <input list="country" name="selectCountry">
+
+                <!-- <datalist> указывает список предопределенных параметров для элемента <input> -->
+                <datalist id="country">
+                    <option value="Рига">
+                    <option value="Бауска">
+                    <option value="Вентспилс">
+                    <option value="Даугавпилс">
+                    <option value="Елгава">
+                    </option>
+                </datalist>
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend><mark><b> Ваши хобби: </b></mark></legend>
+                <table>
+                    <caption><b><u>Можно выбрать любое количество увлечений</u></b></caption>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobby_1" name="hobby_1" value="travel">
+                                <label for="hobby_1">Путешествия</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobby_2" name="hobby_2" value="programming">
+                                <label for="hobby_2">Програмировать</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobby_3" name="hobby_3" value="painting">
+                                <label for="hobby_3">Рисовать</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobby_4" name="hobby_4" value="music">
+                                <label for="hobby_4">Играть на музыкальных инструментах</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobby_5" name="hobby_5" value="gardening">
+                                <label for="hobby_5">Садоводство</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobby_6" name="hobby_6" value="fishing">
+                                <label for="hobby_6">Рыбалка</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobby_7" name="hobby_7" value="needlework">
+                                <label for="hobby_7">Рукоделие</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobby_8" name="hobby_8" value="hunting">
+                                <label for="hobby_8">Охота</label><br>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend><mark><b> Коротко о себе: </b></mark></legend>
+                <table>
+                    <tr>
+                        <td>
+                            <b><label for="about">Расскажите о себе:</label></b>
+                        </td>
+                        <td>
+                            <textarea id="about" name="about" rows="4" cols="40"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Любимый цвет:</b>
+                        </td>
+                        <td>
+                            <input type="color" name="bg" value="#ff0000">
+                        </td>
+                    <tr>
+                        <td>
+                            <b>Любимая цифра:</b>
+                        </td>
+                        <td>
+                            <input type="number" name="number" min="0" max="9" cols="4">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <!-- <kbs> используется для определения ввода с клавиатуры -->
+            <p><b>
+                    Эту страницу можно распечатать, если нажать
+                    <kbd>
+                        <mark><kbd>Ctrl</kbd> + <kbd>P</kbd></b></mark>
+                </kbd>.
+            </p>
+            <!-- kbs -->
+
+            <button type="submit"><mark><b>Отправить</b></mark></button>
+        </form>
+    </article>
+</body>
+
+</html>
