@@ -1,0 +1,63 @@
+html {
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: white;
+    border-style: unset;
+    border: 0.5px solid;
+}
+
+.button_normal {
+    font-size: normal;
+}
+
+.button_large {
+    font-size: large;
+}
+
+.button_small {
+    font-size: small;
+}
+
+.button_smallExtra {
+    font-size: x-small;
+}
+
+.button_primary {
+    background-color: #1169ce
+}
+
+.button_danger {
+    background-color: #d82225
+}
+
+.button_warning {
+    background-color: #ec972f
+}
+
+.button_info {
+    background-color: #66caeb
+}
+
+.button_success {
+    background-color: #5ab457
+}
+
+.button_default {
+    background-color: #FFFFFF;
+    color: rgb(105, 103, 103);
+}
+
+.button_link {
+    background-color: white;
+    border: 0px;
+    color: #709ed3;
+}
+
+.button:hover {
+    background-color: rgb(204, 199, 199);
+}
