@@ -3,10 +3,10 @@
     background-repeat: no-repeat;
     background-image: 
         linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(0 0 0 / 80%)), 
-        url(../../../00-Intro/JevgenijVoronov/mainImg.png);
+        url(../puffin.png);
     background-size: contain;
     /* background-position: bottom; */
-    background-position: 70%;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
