@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Puffin's CV</title>
+    <meta name="description" content="Puffin's CV">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+  </head>
+
+  <body>
+	<header>
+        <nav>
+            <ul class="header">
+                <li class="header__item"><a href="#work-experience" >Work experience</a></li>
+                <li class="header__item"><a href="#education">Education</a></li>
+                <li class="header__item"><a href="#skills">Skills</a></li>
+                <li class="header__item"><a href="#faq">FAQ</a></li>
+                <li class="header__item"><a href="#languages">Languages</a></li>
+                <li class="header__item"><a href="#contactme">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <!-- My contact info -->
+      <section id="aboutme" class="main">
+		  <section>
+			<img src="./puffin.png" alt="profileImg" width="100px" height="100px"> 
+		  </section>
+		<address>
+			<p class="main__preTitle" data-animation="slideInUp" data-animation-delay="0.5">
+	  			IT specialist
+			</p>
+			<h1 class="main__title" data-animation="slideInLeft" data-animation-delay="2">Sergejs Tupiks</h1>
+			<a class="main__contactInfo" href="https://linkedin.com/in/sergejs-tupiks-1306b1a6/" target="_blank">LinkedIn</a><br>
+			<a class="main__contactInfo" href="mailto:puffinserg@gmail.com">puffinserg@gmail.com</a><br>
+			<a class="main__contactInfo" href="tel:+37129450841">+(371) 29450841</a><br>
+			<a class="main__contactBtn" href="#mycontacts">CONTACT ME</a>
+		</address>
+      </section>
+      <!-- /My contact info -->
+	  <!-- WORK EXPERIENCE -->
+	  <section id="work-experience" class="workExperience">
+		<h2>Work experience</h2>
+
+		<h3>SEB Banka, Riga | IB developer</h3>
+		<h4>February 2022 – present</h4>
+		<ul class="workExperience__item">
+			<li>Participating in code and technical reviews;</li>
+			<li>Working closely with backend team to ensure that IB functionality meets project requirements;</li>
+			<li>Performing quality assurance and troubleshooting code rendering across multiple desktop and mobile devices;</li>
+			<li>Launching tests in A and F environments;</li>
+			<li>Working with PM to keep on track with the project plan and timeline;</li>	
+			<li>Participated in all-hands meeting across multiple frontend teams within company to discuss new feature implementation;</li>
+		</ul>
+
+		<h3>Luminor Bank, Riga | Team Lead</h3>
+		<h4>October 2019 – February 2022</h4>
+		<ul class="workExperience__item">
+			<li>L2 support Core Bank System („Platon”) and other bank applications;</li>
+			<li>Organized work of the team to ensure SLA during support;</li>
+			<li>Providing deployments of new releases, monitoring applications and databases;</li>
+			<li>L2 Support of Platon (Progress OpenEdge 11.7);</li>
+			<li>L2 Support of CRM (Oracle 12, Weblogic);</li>
+			<li>L2 Support of Internet bank (Progress OpenEdge 11.6, Oracle 12, OAS);</li>
+			<li>Development of concent for application backups;</li>
+			<li>Development of cluster solution for Core Bank Systems;</li>
+			<li>Development of bash scripts to optimize CBS support;</li>
+			<li>Certified Kubernetes Administrator (CKA) (Udemy);</li>
+			<li>Participation in the project for the migration of the CBS to the clouds;</li>
+		</ul>
+
+		<h3>ABLV Bank, Riga | IT group management, administration</h3>
+		<h4>October 2009 – November 2018</h4>
+		<ul class="workExperience__item">
+			<li>Organized work of the team and co-operation with the external IT support;</li>
+			<li>Managed the infrastructure modernization project and planned the budget;</li>
+			<li>Planned yearly budget withing the group;</li>
+			<li>Administered Unix and Linux servers: Solaris 11.3, HP UX 11.31, RedHat 6, RedHat 7, Cluster solutions, Virtualization;</li>
+			<li>Maintained SAN infrastructures: Brocade switches, Hitachi VSP G1000 and HUS 150 arrays, HNAS 4040, Quantum Virtual Library;</li>
+			<li>Maintained network infrastrusture: HP and Avaya switches, Check Point FW, administered the Fortigate WiFi network;</li>
+			<li>Planned and managed backups;</li>
+			<li>Monitored IT resources and bank systems: Zabbix, Hitachi Tuning Manager (Hitachi Command Suite);</li>
+			<li>Introduced Hitachi USP VM arrays, intergrated EMC CX-30, CX-40;</li>
+			<li>Introduced Hitachi VSP G1000 and HUS150 arrays;</li>
+			<li>Introduced HNAS 4040 to be used as a file server and integrated in Active Directory, replication between DC;</li>
+			<li>Virtualized Linux servers (Oracle VMx86);</li>
+			<li>Virtualized Solaris servers (Oracle VM for SPARC);</li>
+			<li>Built high availabitily systems - Solaris and HPUX;</li>
+			<li>Monitored IT resources and their use (Zabbix, Tuning Manager (Hitachi Command Suite));</li>
+		</ul>
+	</section>
+	<!-- /WORK EXPERIENCE -->
+
+	<!-- SKILLS -->
+	<section id="skills" class="skills">
+		<h2>Skills</h2>
+		<h3>Cluster configuring and administration:</h3>
+		<ul class="skills__item">
+	  		<li>Oracle VM x86 , Oracle VM for SPARC, Solaris Cluster</li>
+	  		<li>VMWare</li>
+	  		<li>HP MC Service Guard</li>
+	  		<li>Linux HA</li>
+	  		<li>Kubernetes administration</li>
+		</ul>
+		<h3>Virtualization:</h3>
+		<ul class="skills__item"> 
+	  		<li>HP servers (nPartition, vPars, Virtual Machines)</li>
+	  		<li>SPARC servers (LDOMs, Solaris Zones)</li>
+	  		<li>Intel servers (Oracle VM, VMWare)</li>
+	  		<li>Virtualization and integration solutions for Hitachi Disk Arrays</li>
+	  		<li>Dockers</li>
+		</ul> 
+		<h3>Unix and Linux server administration:</h3>
+		<ul class="skills__item">
+	  		<li>SPARC T5, T7, T2000, T5120, M5000, SUN Fire 280R, V480, V890, Solaris 8,9,10,11</li>
+	  		<li>Linux RedHat, Centos, Ubuntu</li>
+	  		<li>HP PA RISC servers (A, D, K, L, N Class, rp2400, rp3400, rp4400, rp5400, rp7400, rp8600), HP UX</li>
+	  		<li>HP Integrity servers (rx2600, rx4600), HP UX 11.31</li>
+		</ul>
+		<h3>Disk Array administration:</h3>
+		<ul class="skills__item">
+	  		<li>Hitachi VSP G1000, HUS 150, USP VM, USP 100, 9960, 9970, AMS 500, WMS 100</li>
+	  		<li>Hitachi HNAS 4040</li>
+	  		<li>EMC CX3, CX4</li>
+	  		<li>HP FC60</li>
+		</ul>
+		<h3>Backup:</h3>
+		<ul class="skills__item">
+	  		<li>conceptual approach to backup solution</li>
+	  		<li>HP DataProtector (versions 3.0 to 9), Veeam</li>
+		</ul>
+		<h3>Monitoring of the IT resources and bank systems:</h3>
+		<ul class="skills__item">
+	  		<li>Zabbix</li>
+	  		<li>Hitachi Tuning Manager (Component of Command Suite)</li>
+		</ul>
+		<h3>Programming skils:</h3>
+		<ul class="skills__item">
+	  		<li>C,C++, Pro*C PL/SQL – developing and support</li>
+	  		<li>Bash scripting</li>
+	  		<li>OpenEdge/Progress 4GL</li>
+		</ul>
+    </section>
+    <!-- /IT Skills -->
+
+	<!-- EDUCATION -->
+	<section id="education" class="education">
+	<h2>Education</h2>
+		<p>National Research University of Electronic Technology, Moscow – Qualification Degree in Engineering and Physics <em>1978 – 1984</em></p>
+		<p>Sevastopol  School №20, Sevastopol <em>1967 – 1977</em></p>
+	</section>
+	<!-- /EDUCATION -->
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <h2>FAQ</h2>
+        <details>
+            <summary>My hobbyies?</summary>
+            <ul>
+                <li>Photographing</li>
+                <li>Fishing</li>
+            </ul>
+        </details>
+        <br>
+<!--
+        <details>
+            <summary>My favorite playlist</summary>
+            <br>
+            <iframe 
+				src="https://open.spotify.com/embed/playlist/16gXsmg48MdRTqCLNnx9Cu?utm_source=generator" 
+                width="40%" 
+                height="380" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+        </details>
+-->		
+    </section>
+    <!-- /FAQ -->
+	  <!-- LANGUAGES -->
+	  <section id="languages" class="languages">
+		<h2>Languages</h2>
+		<ul class="languages__item">
+			<li>Russian (native)</li>    
+			<li>English (working Professional)</li>    
+			<li>Latvian (working Professional)</li>    
+		</ul>
+	</section>
+	<!-- LANGUAGES -->
+
+      <!-- CONTACT FORM -->
+      <section id="mycontacts">
+	<h2>Contact me </h2>
+	<form action="action_contactme_page.php">
+	  <input type="text" id="firstname" name="secondname" placeholder="Your name.." style="width: 200px;">
+	  </br>
+	  </br>
+	  <textarea id="subject" name="subject" placeholder="Write something.." style="width: 200px; height:100px"></textarea>
+	  </br>
+	  </br>
+	  <input type="submit" value="Submit">
+	</form>
+      </section>
+      <!-- /CONTACT FORM -->
+    </main>
+  </body>
+</html>
+
