@@ -1,0 +1,33 @@
+:root {
+    --main-color: rgb(119, 30, 90);
+    --secondary-color: rgba(190, 4, 4, 0.952);
+    --background-color: rgb(248, 245, 241);
+}
+
+html {
+    font-size: 16px;
+    font-family: Tahoma;
+    background-color: var(--background-color);
+}
+
+p {
+    margin-left: 1em;
+    text-align: justify;
+    text-indent: 2em;
+    font-style: italic;
+    color: var(--background-color);
+}
+
+h1 {
+    margin-block-start: 0.25em;
+    margin-left: 1.5em;
+    text-align: justify;
+    font-size: 2em;
+    color: burlywood;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h4 {
+    background-color: var(--secondary-color);
+}

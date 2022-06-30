@@ -1,0 +1,29 @@
+html {
+    align-items: center; 
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+}
+
+.flexContainer {
+    display: flex;
+    min-height: 500px;
+    background-color: grey;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.flexContainer>div {
+    font-size: 30px; 
+    font-weight: bolder;   
+    background-color: lightgrey;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    text-align: left;
+}
