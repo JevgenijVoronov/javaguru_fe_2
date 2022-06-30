@@ -1,3 +1,23 @@
+// const addBtn    = document.getElementById('addBtn');
+// const taskInput = document.getElementById("taskInput");
+
+
+
+// const addTask = () => {
+//     let task = taskInput.value
+//     console.log(task)
+// }
+
+// const renderTask = () => {}
+
+// const removeTask = () => {}
+
+// const toogleDone = () => {}
+
+
+// addBtn.addEventListener('click', addTask)
+
+
 
 let taskAdder;
 let myTasksContainer;
@@ -58,7 +78,6 @@ const removeTask = (event) => {
     renderTasks();
 }
 
-
 const toggleDone = (event) => {
 
     taskIndex = event.target.dataset.index;
@@ -73,11 +92,9 @@ const toggleDone = (event) => {
     saveStorage();
 }
 
-
 const saveStorage = () => {
     localStorage.setItem('taskList' , JSON.stringify(taskList));
 }
-
 
 const renderTasks = () => {
 
