@@ -1,0 +1,74 @@
+.contact-me {
+
+    background-color: var(--main-color);
+
+    text-align: center;
+    padding-bottom: 2em;
+    height: 100%;
+    margin-block-start: 2em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact-me__text {
+    width: 15%;
+    height: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    color: burlywood;
+    background-color: transparent;
+    border: solid 3px var(--secondary-color);
+    border-radius: 10px;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.contact-me__textbox {
+    width: 30%;
+    height: 15em;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--main-color);
+    border: solid 3px var(--secondary-color);
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.contact-me__submit-btn {
+    padding: 15px 0px;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+    color: var(--background-color);
+    background-color: transparent;
+    margin-top: 15px;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+.contact-me__text:hover {
+    color: var(--background-color);
+    border-color: var(--background-color);
+    box-shadow: 20px 20px 50px var(--background-color);
+    color: var(--background-color);
+    letter-spacing: 0.15em;
+}
+
+.contact-me__textbox:hover {
+    color: var(--background-color);
+    border-color: var(--background-color);
+    box-shadow: 20px 20px 50px var(--background-color);
+    color: var(--main-color);
+}
+
+.contact-me__submit-btn:hover {
+    background-color: #f1e8e8;
+    box-shadow: 20px 20px 50px var(--background-color);
+    color: var(--main-color);
+    border-color: var(--background-color);
+    letter-spacing: 0.15em;
+}

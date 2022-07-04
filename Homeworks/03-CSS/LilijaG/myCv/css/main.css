@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    background-color: var(--main-color);
+}
+
+.main__contactInfo {
+    margin-left: 1em;
+}
+
+.main__contactButton{
+    margin-block-start: 2em;
+    padding: 5px 5px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: var(--secondary-color);
+}
