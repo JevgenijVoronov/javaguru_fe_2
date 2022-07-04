@@ -1,0 +1,27 @@
+.flex-container{
+    /* display: flex; */                                    /*нужно указать свойтсво display: ;*/
+    justify-content: center;
+    text-align: center !important;
+    padding: 16px !important;
+    box-sizing: border-box;
+}
+.flex-container > div {
+    animation-name: ani;
+    border-radius: 50%;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+/* 2: добавить всем элементам по классу */
+/* .item-1 {animation-delay: 0s}
+.item-2 {animation-delay: 1s}
+.item-3 {animation-delay: 2s} */
+
+@keyframes ani {
+    0% {background-color: #a1a1a1; width: 12px; height: 12px}
+    33% {background-color: #737675; width: 16px; height: 16px}
+    66% {background-color: #a1a1a1; width: 12px; height: 12px}
+    100% {background-color: #a1a1a1; width: 12px; height: 12px}
+}

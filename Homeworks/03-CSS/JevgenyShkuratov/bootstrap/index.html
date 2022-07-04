@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-4 column column-1 ">
+                <div class="row_item">Column 1</div>
+            </div>
+            <div class="col-12 col-sm-4 column column-2 ">
+                <div class="row_item">Column 2</div>
+            </div>
+            <div class="col-12 col-sm-4 column column-3 ">
+                <div class="row_item">Column 3</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- gx-5 это класс для добавления промежутков межку наших колонок
+            https://getbootstrap.com/docs/5.0/layout/gutters/
+
+            по сути наши paddings
+
+            ???????? - по чем в Вашем примере их не видно
+            дело в том что Вы залили цветом всю колонку целиком 
+            включая и отступы от полей 
+            
+            все в порядке gx-5 работает только нужно было залить цветом не всю колонку
+            а её контент
+
+            ниже пример
+            можно раскоментрировать и посмотреть где у нас блок и где сам контент
+            если поиграться с значением для gx то можно увидеть как меняеться отступ
+    -->
+
+    <!-- <div class="container">
+        <div class="row gx-5">
+            <div class="col-sm-4 col- column column-1 ">
+                <div style="border: solid 2px pink;">Column 1</div>
+            </div>
+            <div class="col-sm-4 col- column column-2 ">
+                <div style="border: solid 1px pink;">Column 2</div>
+            </div>
+            <div class="col-sm-4 col- column column-3 ">
+                <div style="border: solid 2px pink;">Column 3</div>
+            </div>
+        </div>
+    </div> -->
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navigation__item {
+    padding: 5px 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.navigation__item:hover{
+    border-color: bisque;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: bisque;
+}
+a:hover {
+    color: black;
+    /* text-decoration: underline wavy; */
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+.myclass {
+    width: 100%;
+    height: 60px;
+    flex: 0 0 auto;
+}
+
+
+@media (min-width: 380px) {
+.myclass {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}}
+
+.myrow {
+    border:6px solid white;
+
+}
+
+.item {
+    height:60px;
+}
