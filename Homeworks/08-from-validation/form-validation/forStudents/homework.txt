@@ -1,77 +1,73 @@
-8 majasdarbs
+Нам надо добавить несколько правил валидации на поля
 
-Mums nepicišams pievinot validacijas nosacijumi katram no laukam
-No mapes 08-majasdarbs nokopet sava mape nokopet index.html, style.css, un script.js
-
-    Validacijas nosacijumi:
-    0 - Visiem laukiem jabut japievino required atributs
+    Валидации
+    0 - все поля должны быть обязательно заполнены
     
-    1 laukam "Teksta laukam"
-        - japarbaudat lai vertiba butu pieškirta  
-        - pievienot atbilstošo ievadlauka tipu
+    1 поле
+        - проверить обезательность заполнения
+        - добавить правельный тип поля
 
-    2 laukam "Epasts lauks"  
-        - pievienot atbilstošo ievadlauka tipu
-        - pievienot atbilstošo patternu
-            -- nepicišams parbaudit lai mumu vertiba satur "@" un gmail.com beigas
+    2 поле
+        - добавить правельный тип поля
+        - добавить правельный паттерт 
+            -- необходимо проверить наличие "@" и gmail.com в конце
             -- .+@gmail\.com
-        - pievinot korektu kļudas paziņojumu
+        - добавить коректный вывод ошибки
 
-    3 laukam "Teksta lauks ar Min un Max garumu"
-        - pievienot atbilstošo ievadlauka tipu
-        - pievienot atbilstošo parbaudi par simbolu skaitļu
-            -- min garums 5 simboli
-            -- max garums 10 simboli
-        - pievinot korektu kļudas paziņojumu
+    3 поле
+        - добавить правельный тип поля
+        - min размер 5 символов
+        - max размер 10 символов
+        - добавить коректный вывод ошибки
 
-    4 laukam "Parole 1"
-        - pievienot atbilstošo ievadlauka tipu
-        - pievienot atbilstošo paterni
-            -- jāsatur vismaz 1 lielais burts, 1 mazais burts un 1 cipars
+    4 поле 
+        - добавить правельный тип поля
+        - добавить правельный паттерн 
+            -- хотабя одна маленькая буква хотябы одна большая и одна цифра 
             -- ^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$
-        - pievinot korektu kļudas paziņojumu
+        - добавить коректный вывод ошибки
 
-    5 laukam "Parole 2"
-        - pievienot atbilstošo ievadlauka tipu
-        - pievienot atbilstošo paterni
-            -- jāsatur vismaz 1 lielais burts, 1 mazais burts un 1 cipars
+    5 поле
+        - добавить правельный тип поля
+        - добавить правельный паттерн
+            -- хотабя одна маленькая буква хотябы одна большая и одна цифра 
             -- ^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$
-            -- min garums 8 simboli
-        - pievinot korektu kļudas paziņojumu
+            -- длинна 8 символов
+        - добавить коректный вывод ошибки
 
-    6 laukam "Nedeļa"
-        - pievienot atbilstošo ievadlauka tipu
-        - pievienot min max nedeļas robežas vertibas
-            -- no 2022-W18
-            -- lid 2022-W26
-        - pievinot korektu kļudas paziņojumu
+    6 поле
+        - добавить правельный тип поля
+        - добавить лимит в выборе недель
+            -- с 2022-W18
+            -- по 2022-W26
+        - добавить коректный вывод ошибки
 
-    7 laukam "Laiks"
-        - pievienot atbilstošo ievadlauka tipu
-        - pievienot min max laiku robežas vertibas
-            -- no 9:00
-            -- lid 18:00
-        - pievinot korektu kļudas paziņojumu
+    7 поле
+        - добавить правельный тип поля
+        - добавить лимит в выборе времени
+            -- с 9:00
+            -- по 18:00
+        - добавить коректный вывод ошибки
 
-    8 laukam "Zip un Valsts"
-        - pievienot atbilstošo ievadlauka tipu
-        - pievienot atbilstošo ievadlauka id
-        - pievienot vel 3 valsti
-            -- script.js pievino validacijas opcijas priekš karta no valstiem
-        - pievinot korektu kļudas paziņojumu
+    8 поля "Zip un Country"
+        - добавить правельный тип поля
+        - добавить првельный ID
+        - добавить ещё 3 страны 
+            -- script.js добавить правила валидации для других стран
+        - добавить коректный вывод ошибки
 
-    9 Pievinot funkciju printValues
-        - izvada vertibas formas vertibas uz ekrana
-            -- izveidtot tukšu masivu kura saglabam vertibas
-            -- izmantojot getElementsByTagName('input') dabut visus ievadlaukus
-            -- ar for ciklu priekš katra no vertibam var key in inputs
-            -- dabujam vertibas inputs[key].value
-            -- ja value eksiste  
-            -- pievinojam vertibu masiva .push(value);
-            -- izvadam masivu vertibas uz ekrana alert();
+    9 Создать функцию printValues
+        - выводит значения формы на экран 
+            -- создать пустой массив в который будем сохранять данные 
+            -- используем getElementsByTagName('input') что бы получить инпуты
+            -- проходим циклом и для каждого импута выбераем его значение 
+            -- inputs[key].value
+            -- проверяем что бы значение существовало 
+            -- добавляем в массив .push(value);
+            -- выводи массив на экран alert();
 
 
-Ši dokumentacija var Jums palidzet!
+Эта документация поможет
 https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Constraint_validation
             
 
