@@ -1,4 +1,6 @@
-@media screen and (max-width:600px) {
-    .col1 {float:none; width:100%;
+@media screen and (max-width:500px) {
+    .col1,
+    .col2,
+    .col3 { width:100%;
     }
 } 
