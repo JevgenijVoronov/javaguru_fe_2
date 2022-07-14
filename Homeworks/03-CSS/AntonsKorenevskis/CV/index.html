@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Antons Korenevskis | Даже не джун Front end developer">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="js/animation.js"></script>
+</head>
+<body>
+<!-- header -->
+  <header>
+    <nav>
+     <ul class="nav">
+      <li class="nav_link"><a href="#bio">Intro</a></li>
+       <li class="nav_link"><a href="#skills">Skills</a></li>
+       <li class="nav_link"><a href="#education">Education</a></li>
+       <li class="nav_link"><a href="#gallery">Gallery</a></li>
+       <li class="nav_link"><a href="#footer">Contact me</a></li>
+      </ul>
+    </nav>
+  </header>
+<!-- /header -->
+<!-- profile -->
+<main>
+<a id="bio"></a>
+<div class="bio">
+  <!-- img -->
+    <img src="C:\dev\javaguru_fe_2\Homeworks\00-intro\AntonsKorenevskis\img\profile.jpg" alt="profile pic" style="height:100%;">
+  <!-- /img -->
+    <div class="bio_item">
+  <h1 style="color:#ffffff">FRONTEND DEVELOPER</h1>
+  <h2 style="color:#ffffff">Antons Korenevskis</h2>
+  </div>
+</div>
+  <!-- SKILLS -->
+    <a id="skills"></a>
+      <section id="skills" class="skills">
+        <h2 data-animation="slideInDown" style="align-self:center">Skills</h2>
+        <ul class="skills__item">
+          <li data-animation="slideInDown" data-animation-delay=".1s">HTML </li>
+          <li data-animation="slideInDown" data-animation-delay=".5s">CSS</li>
+          <li data-animation="slideInDown" data-animation-delay=".10s">JavaScript</li>
+          <li data-animation="slideInDown" data-animation-delay=".15s">Adobe Photoshop</li>
+          <li data-animation="slideInDown" data-animation-delay=".20s">Adobe Illustrator</li>
+          <li data-animation="slideInDown" data-animation-delay=".25s">Adobe Premiere Pro</li>
+          <li data-animation="slideInDown" data-animation-delay=".30s">Adobe After Effects</li>
+          <li data-animation="slideInDown" data-animation-delay=".35s">Adobe XD</li>
+          <li data-animation="slideInDown" data-animation-delay=".40s">Git</li>
+          <li data-animation="slideInDown" data-animation-delay=".45s">Facebook Ads Manager</li>
+        </ul>
+      </section>
+  <!-- SKIllS -->
+  <!-- EDUCATION -->
+  <a id="education"></a>
+  <section id="education" class="education">
+    <h2 data-animation="slideInDown" style="align-self:center">education</h2>
+    <ul class="education__item">
+      <li data-animation="slideInDown" data-animation-delay=".1s">Daugavpils University, The Faculty of Computer Science and Information Technology: 2007 - (unfinished)</li>
+      <li data-animation="slideInDown" data-animation-delay=".5s">Daugavpils Secondary School № 16: 1995 - 2007</li>
+    </ul>
+
+
+  </section>
+<!-- EDUCATION -->  
+<!-- /profile -->
+<!-- gallery -->
+<div class="c-heroImageGrid">
+	<div class="container">
+		<div class="column"></div>
+		<div class="column">
+			<div class="row"></div>
+			<div class="row">
+				<div>
+					<div class="text">
+            <p style="color: #ffffff; text-align: justify;">
+              <q >
+               Как швейцарский нож я умею все, но намного хуже, чем предназначенные для этого инструменты 
+              </q> <br>- Антон К.
+            </p>
+					</div>
+				</div>
+				<div></div>
+			</div>
+			<div class="row"></div>
+		</div>
+	</div>
+</div>
+<!-- /gallery -->
+</main>
+<!-- FOOTER -->
+<div class="footer">
+   <!-- CONTACT FORM -->
+    <section id="contactme" class="contactMe">
+      <h2>Contact me</h2><br><br>
+
+      <form action="action_page.php">
+          <input 
+              type="text" 
+              id="firstname" 
+              name="firstname" 
+              placeholder="Enter your name.." 
+              class="contactMe__input"
+          >
+          <br><br><br><br>
+
+          <input 
+              type="text" 
+              id="subject" 
+              name="lastname" 
+              placeholder="Subject.." 
+              class="contactMe__input"
+          >
+          <br><br><br><br>
+      
+          <textarea 
+              id="text" 
+              name="text" 
+              placeholder="Write something.." 
+              class="contactMe__text-area"></textarea>
+          <br><br>
+
+          <input type="submit" value="Submit" class="contactMe__submit-btn">            
+        </form>
+  </section>
+  <!-- CONTACT FORM -->
+  <div>
+    <span id="copyright">
+      <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span> &copy; A. Korenevskis
+  </div>
+</div>
+<!-- /FOOTER -->
+  </body>
+</html>

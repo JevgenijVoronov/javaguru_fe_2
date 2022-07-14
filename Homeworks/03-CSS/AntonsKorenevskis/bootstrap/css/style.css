@@ -1,0 +1,10 @@
+.row div {
+    border: 0,5px solid lightgray;
+    height: 100px;
+}
+
+.row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+

@@ -1,0 +1,15 @@
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(35, 33, 33);
+    font-family: 'Jost', sans-serif;
+    
+}
+
+.nav_item {
+    padding: 20px;
+    
+}

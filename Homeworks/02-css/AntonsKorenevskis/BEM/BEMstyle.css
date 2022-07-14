@@ -1,0 +1,59 @@
+.button{
+    border-radius: 4px;
+    padding: 5px 5px;  
+    border:0px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-style: color #000000;
+}
+
+/* Модификаторы размера */
+.button_normal{ 
+    font-size: normal; 
+}
+
+.button_large{ 
+    font-size: large; 
+    padding: 10px; 
+}
+
+.button_small{ 
+    font-size: small; 
+}
+
+.button_extrasmall{ 
+    font-size: x-small; 
+}
+
+/* Модификаторы цвета */
+.button_primary{ 
+    background-color: blue 
+}
+
+.button_danger{ 
+    background-color: red 
+}
+
+.button_warning{ 
+    background-color: yellow 
+}
+
+.button_info{ 
+    background-color: lightblue 
+}
+
+.button_success{ 
+    background-color: green 
+}
+
+.button_default{ 
+    color: black; 
+    border: 1px solid grey;
+}
+
+.button_link{ 
+    background-color: white; 
+    border:0px; 
+    color: blue; 
+}
