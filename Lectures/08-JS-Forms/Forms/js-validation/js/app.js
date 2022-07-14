@@ -1,4 +1,3 @@
-
 let userForm = document.getElementById("user-form");
 let formInputs = Array.from(userForm.elements);
 
@@ -63,7 +62,6 @@ const isValid = (inputField) => {
     return validationRules[inputField.name](inputField.value)
 }
 
-
 const handleValidity = (inputField, errorMsg) => {
     if(isValid(inputField)) {
         setFieldValid(inputField);
@@ -122,8 +120,11 @@ formInputs.forEach((inputField) => {
     if(inputField.tagName !== "BUTTON" && inputField.tagName !== "SELECT") {
         inputField.addEventListener("input", resetErrorState);
         inputField.addEventListener("blur", validateField);
+
     } else if(inputField.tagName === "SELECT") {
+        
         inputField.addEventListener("change", handlePoValidity);
     }
 })
+
 userForm.addEventListener("submit", handleFormSubmit)

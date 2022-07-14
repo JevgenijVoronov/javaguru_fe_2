@@ -1,4 +1,4 @@
-let data = [
+let dogBreeds = [
     {
       'value': 'affenpinscher',
       'name': 'affenpinscher'
@@ -104,4 +104,5 @@ let data = [
       'name': 'eskimo'
     }
 ]
+
 

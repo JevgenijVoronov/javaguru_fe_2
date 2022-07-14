@@ -20,4 +20,6 @@ class Cat extends Animal {
   } 
 }
 
+// let a = new Animal('Jevgenijs', 'test');
+
 const myCat = new Cat('Jevgenijs');

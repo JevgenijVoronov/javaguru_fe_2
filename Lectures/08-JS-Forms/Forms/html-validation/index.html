@@ -12,24 +12,25 @@
 <body>
     <div class="container">
         <form class="form mt-5" action="" method="GET">
-            <label class="form-label mt-3" for="speciality">
+            <!-- <label class="form-label mt-3" for="speciality" title="fdfadf">
                 What is your speciality?
             </label>
             <input id="speciality" class="form-control" type="text" name="speciality" 
-                placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" autofocus/>
+                placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" autofocus/> -->
 
-            <label class="form-label mt-3" for="username">
+            <!-- <label class="form-label mt-3" for="username">
                 Enter username
             </label>
             <input id="username" class="form-control" type="text" name="username" minlength="3" maxlength="12" required
-                size="12" />
+                oninvalid="this.setCustomValidity('zeka')"
+            /> -->
 
             <label class="form-label mt-3" for="email">
                 Enter email
             </label>
             <input id="email" class="form-control" type="email" name="email" pattern=".+@gmail.com" required value="lietotajvards@gmail.com"/>
 
-            <label class="form-label mt-3" for="age">
+            <!-- <label class="form-label mt-3" for="age">
                 What is your age?
             </label>
             <input id="age" class="form-control" type="number" min="16" max="99" name="age" required />
@@ -42,7 +43,7 @@
             <label class="form-label mt-3" for="week">
                 Choose time for your consultation?
             </label>
-            <input id="time" class="form-control" type="time" min="09:00" max="18:00" name="time" required />
+            <input id="time" class="form-control" type="time" min="09:00" max="18:00" name="time" required /> -->
 
             <button class="btn btn-primary mt-4" type="submit">
                 Submit

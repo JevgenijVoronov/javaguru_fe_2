@@ -2,9 +2,7 @@ class BaseElement {
   constructor(tag, className) {
     this.tag        = tag;
     this.className  = className;
-
-    this.element = null;
-
+    this.element    = null;
     this.createElement();
   }
 
@@ -18,7 +16,6 @@ class Paragraph extends BaseElement {
   constructor(className, text) {
     super('p', className)
     this.text = text;
-
     this.init();
   }
   init() {
@@ -68,6 +65,9 @@ class SubmitBtn extends Button {
   }
 }
 
+const paragraph2 = new Paragraph(
+  'zeka', 'fadfadfafdad'
+);
 
 const paragraph = new Paragraph(
   ['paragraph', 'paragraph-center'], 'Jevgenijs Voronovs'
@@ -86,5 +86,6 @@ const submitBtn = new SubmitBtn('<span>CLICK ME I AM IMPORTANT</span>',)
 
 document.getElementById('output').append(image.element)
 document.getElementById('output').append(paragraph.element);
+document.getElementById('output').append(paragraph2.element);
 document.getElementById('output').append(button.element);
 document.getElementById('output').append(submitBtn.element);
