@@ -43,23 +43,59 @@ const myTasks   = document.querySelector('.myTasks');
 const tasks     = JSON.parse(localStorage.getItem('taskList')) || [];
 
 // addEventListener click 
+
 // addEventListener submit
+taskAdder.addEventListener("submit",addTask);
+myTasks.addEventListener('click', toggleDone)
 
 
 
 renderTask();
 
-function addTask(){
+function addTask(e){
+    e.preventDefault();
+    const textTask = taskAdder.querySelector("[name=task").value;
 
+    const task = {
+        textTask,
+        done:false
+    }
+
+    tasks.push(task);
+    saveToLocalStorage("taskList");
+    renderTask();
+    taskAdder.reset();
 }
 
-function saveToLocalStorage() {
-
+function saveToLocalStorage(group_text) {
+    localStorage.setItem(group_text, JSON.stringify(tasks))
 }
 
 function renderTask() {
+    let html = tasks.map(function(data,i) {
+        let myClass = data.done ? 'done' : "";
+        return `<li data-index='${i}'>
+                    <div class="">
+                            ${data.textTask}"  "<span class="remove">❌</span>
+                    </div>
+                </li>`;
+    })
+    myTasks.innerHTML = html;
 
 }
 
 function toggleDone(e) {
+    const myEl = e.target;
+    const mySel = myEl.parentElement;
+
+    if(myEl.className === 'remove') {
+        let index = mySel.parentElement.dataset.index;
+        let temp = tasks.splice(index,1);
+    } else {
+        myEl.classList.toggle('done');
+        tasks(mySel.dataset.index).done = !tasks(mySel.dataset.index).done
+    }
+    saveToLocalStorage("taskList");
+    renderTask();
+
 }
