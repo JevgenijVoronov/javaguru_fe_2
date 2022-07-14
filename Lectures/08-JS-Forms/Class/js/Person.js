@@ -4,8 +4,8 @@ class Car {
 
 class Car {
     constructor(brand, model) {
-	this.brand = brand;
-	this.model = model;
+	    this.brand = brand;
+	    this.model = model;
     };
 }
 
