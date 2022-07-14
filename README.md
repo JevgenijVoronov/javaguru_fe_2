@@ -2,17 +2,17 @@
 | :-------------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Anastasia B           | ✓ | ✓ | ❓ |   |   |   |   |   |   |   |
 | Antons Korenevskis    | ✓ | ✓ | ❓ |   |   |   |   |   |   |   |
-| Jekaterina Koplievica | ✓ | ✓ | ❓ | ✓ |❓ -cv| ❓ |   |   |   |   |
-| Jevgeny Shkutatov     | ✓ | ✓ | ✓ | ❓ |   |   |   |   |   |   |
+| Jekaterina Koplievica | ✓ | ✓ | ❓ | ✓ |❓ -cv| ❓ |❓ |   |   |   |
+| Jevgeny Shkutatov     | ✓ | ✓ | ✓ | ❓ | ❓   |  ❓ |   |   |   |   |
 | Kristina Pavlova      | ✓ | ✓ | ✓ |   |   |   |   |   |   |   |
-| Lilija G              | ✓ |   |   |   |   |   |   |   |   |   |
-| Olga Suhusina         | ✓ | ✓ | ✓ |   |   |   |   |   |   |   |
-| Sergejs Tupiks        | ✓ | ❓ |   |   |   |   |   |   |   |   |
+| Lilija G              | ✓ |   |   |   |   |   | ❓ |   |   |   |
+| Olga Suhusina         | ✓ | ✓ | ✓ |   |   | ❓ |   |   |   |   |
+| Sergejs Tupiks        | ✓ | ❓ |   |   |   |   | ❓ |   |   |   |
 | Valerija Kulikova     | ✓ | ✓ |   |   |   |   |   |   |   |   |
 | Vladislavs Savcenko   | ✓ | ✓ |   |   |   |   |   |   |   |   |
 | ZannaVannaga          | ✓ |   |   |   |   |   |   |   |   |   |
 | Amirs	Kovilovs        |   |   |   |   |   |   |   |   |   |   |
-| Andrei Tatur          |   | ❓ | ❓ | ❓ |   |   |   |   |   |   |                
+| Andrei Tatur          |   | ❓ | ❓ | ❓ |   | ❓ |   |   |   |   |                
 | Dzianis Khaladzila    |   |   |   |   |   |   |   |   |   |   |
 | Anvarjon Sheraliev    | ✓ | ✓ |   |   |   |   |   |   |   |   |
 | Andrejs Iļjasovs      |   |   |   |   |   |   |   |   |   |   |
