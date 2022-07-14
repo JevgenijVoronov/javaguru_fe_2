@@ -1,16 +1,15 @@
-fetch("https://randomuser.me/api/");
-fetch("https://randomuser.me/api/?results=50");
-fetch("https://randomuser.me/api/?gender=female")
-fetch("https://randomuser.me/api/?results=50&gender=female")
-fetch("https://randomuser.me/api/?results=50&gender=female").then((response) => {
-    return response.json();
-}).then((data) => {
-    console.log(data);
-})
+// fetch("https://randomuser.me/api/");
+// fetch("https://randomuser.me/api/?results=50");
+// fetch("https://randomuser.me/api/?gender=female")
+// fetch("https://randomuser.me/api/?results=50&gender=female")
+// fetch("https://randomuser.me/api/?results=50&gender=female").then((response) => {
+//     return response.json();
+// }).then((data) => {
+//     console.log(data);
+// })
 
 
 const apiURL = "https://randomuser.me/api/";
-
 const submitBtn = document.getElementById("submit-btn");
 const personGrid = document.getElementById("person-grid");
 
@@ -20,7 +19,7 @@ const nationalityInput = document.getElementById("nationality");
 
 
 const createPersonCard = () => {
-    const cardContainer = document.createElement("div");
+    const cardContainer = document.createElement("div"); 
     cardContainer.classList.add("person-card");
 
     return cardContainer
@@ -60,27 +59,30 @@ const createNationality = (data) => {
 }
 
 const renderUserData = (data) => {
-    const personCard = createPersonCard();
-    const img = createImg(data)
-    const fullName = createFullName(data);
-    const email = createEmail(data);
-    const nationality = createNationality(data);
+    const personCard    = createPersonCard();
+    const img           = createImg(data)
+    const fullName      = createFullName(data);
+    const email         = createEmail(data);
+    const nationality   = createNationality(data);
     
     personCard.append(img);
     personCard.append(fullName);
     personCard.append(nationality);
     personCard.append(email);
+
     personGrid.append(personCard);
 }
 
 
 const fetchPersonData = () => {
     const url = new URL(apiURL);
+
     const queryParams = {
         gender: genderInput.value,
         results: resultsInput.value,
         nationality: nationalityInput.value
     }
+
     const searchParams = new URLSearchParams(queryParams).toString();
     url.search = searchParams;
 

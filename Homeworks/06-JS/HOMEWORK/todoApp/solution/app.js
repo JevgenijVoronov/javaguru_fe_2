@@ -7,13 +7,15 @@ myTasks.addEventListener('click', toggleDone);
 
 renderTask();
 
-function addTask(e){
+function addTask(e) {
     e.preventDefault();
-    const textTask = this.querySelector('[name=task]').value;
+    const textTask = this.querySelector('[name=task]').value ='';
+
     const task = {
         textTask,
         done: false
     }
+
     tasks.push(task);
     saveToLocalStorage();
     renderTask();
@@ -39,14 +41,16 @@ function saveToLocalStorage(){
 function toggleDone(e) {
     const myEl = e.target;
     const mySel = myEl.parentElement;
+
     if(myEl.className === 'remove') {
         let index = mySel.parentElement.dataset.index;
         let temp = tasks.splice(index,1);
-        console.log(temp);
     } else {
         myEl.classList.toggle('done');
         tasks[mySel.dataset.index].done = !tasks[mySel.dataset.index].done;
     }
+
+
     saveToLocalStorage();
     renderTask();
 }
