@@ -1,11 +1,11 @@
 // variables
 const output    = document.getElementsByClassName('output')[0];
+const historyElement = document.getElementById('history');
 let   equation  = ''; // вырожение 
 let   number    = '';
 let   value     = '';
 let   type      = '';
-let   mathCount = 0;
-
+let   mathCount = localStorage.length || 0;
 
 //button click
 let buttons = document.getElementsByClassName('btn');
@@ -43,6 +43,23 @@ for (let i = 0; i < buttons.length; i++) {
     }, false)
 }
 
+function saveToLocalStorage(data) {
+    let history = JSON.parse(localStorage.getItem('CalculatorHistory')) || [] ;
+
+    history.push({ evaluetion: `${data} = ${eval(data)} `});
+    localStorage.setItem(`CalculatorHistory`, JSON.stringify(history));
+}
+
+function loadFromLocalStorage() {
+    historyElement.innerHTML = '';
+
+    let history = JSON.parse(localStorage.getItem('CalculatorHistory'));
+
+    history.forEach(item => {
+        historyElement.innerHTML += `<li>${item.evaluetion}</li>`;
+    });
+}
+
 function clear() {
     output.innerHTML = '0';
 }
@@ -60,11 +77,15 @@ function operator() {
 }
 
 function equal() {
-    mathCount = mathCount +1;
+    // mathCount = mathCount +1;
+
+    saveToLocalStorage(equation);
 
     number = eval(equation);
     equation = number;
     output.innerHTML = number;
+
+    loadFromLocalStorage();
 }
 
 function symbol() {
@@ -87,3 +108,5 @@ document.addEventListener("keyup", function(event){
     }
 
 }, false)
+
+loadFromLocalStorage();
