@@ -28,3 +28,34 @@
         - используя innerHTML добавляем img tag с src=${data.message}
 */
 
+const apiURL = "https://dog.ceo/api/";
+
+const dogSelector = document.getElementById ("dogSelector");
+const dogImage = document.getElementById('dogImg');
+const Dogs   = document.querySelector('.dog-selector');
+
+Dogs.addEventListener('change', toggleDog);
+
+function listDogs() {
+    let html = data.map(item => {
+        return `<option value="${item.value}">${item.name}</option>`;
+    });
+    dogSelector.innerHTML = html;
+}
+
+function renderDogData(data) {
+    dogImage.innerHTML = "<img src=" + `${data.message}` + " >";
+}
+
+function toggleDog(e) {
+    const curEl = e.target.value;
+    let reqURL = apiURL + "breed\/"+ curEl + "\/images\/random";
+    const url = new URL(reqURL);
+
+    fetch(url)
+    .then(response => response.json())
+    .then(data => renderDogData(data))
+    .catch(error => alert(error));
+}
+
+listDogs();
