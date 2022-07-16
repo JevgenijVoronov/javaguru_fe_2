@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Playfair+Display+SC:wght@400;700&family=Russo+One&display=swap');
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: x-large;
+    font-weight: regular;
+    text-transform: uppercase;
+    color: rgb(243, 243, 72);
+    letter-spacing: 0.3rem;
+}
+
+h2 {
+    font-family: 'Jost', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(243, 243, 72);
+    letter-spacing: 0.3rem;
+
+}
+
+h3 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: large;
+    text-align: center;
+}
+
+
+a {
+    color: rgb(173, 175, 177);
+  }
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+}
+
+a:active { 
+    text-decoration: none; 
+}
+
+q {
+    font-style: italic;
+}
