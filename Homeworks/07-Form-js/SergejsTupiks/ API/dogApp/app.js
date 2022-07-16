@@ -38,18 +38,18 @@ Dogs.addEventListener('change', toggleDog);
 
 function listDogs() {
     let html = data.map(item => {
-        return `<option value="${item.value}">${item.name}</option>`;
+        return `<option value="${item.value}">${item.name}</option>`; 
     });
     dogSelector.innerHTML = html;
 }
 
 function renderDogData(data) {
-    dogImage.innerHTML = "<img src=" + `${data.message}` + " >";
+    dogImage.innerHTML = "<img src=" + `${data.message}` + " >";  // можно записать так `<img src="${data.message}">` если мы используем `` то можно не использовать ""
 }
 
 function toggleDog(e) {
     const curEl = e.target.value;
-    let reqURL = apiURL + "breed\/"+ curEl + "\/images\/random";
+    let reqURL = apiURL + "breed\/"+ curEl + "\/images\/random"; // можно записать вот так  = `${apiURL}breed/${dogSelector.value}/images/random`
     const url = new URL(reqURL);
 
     fetch(url)
@@ -59,3 +59,14 @@ function toggleDog(e) {
 }
 
 listDogs();
+
+/*
+В целом все отлично пару моментов
+
+при написании кода стоит придерживаться такого подхода 
+
+в начале дефинируем все что нам надо переменные и функции, а только потом их используем 
+на 37 строчки мы используем функцию toggleDog()
+а при этом дефинируем мы её только на 50 
+это не стращно но когда у нас много кода так проще его анализировать
+*/

@@ -84,7 +84,7 @@
   }
   
 function GetCityAPI(City) {
-  let reqURL = apiURL + `${City}`+ "&appid=" + `${apik}`;
+  let reqURL = apiURL + `${City}`+ "&appid=" + `${apik}`; // можно записать вот так = `${apiURL}${City}&appid=${apik}`
   const url = new URL(reqURL);
 
     fetch(url)
@@ -94,8 +94,17 @@ function GetCityAPI(City) {
 }
 
 function renderData(data) {
-  cityoutput.innerHTML = "Метеоданные по городу " + City;
-  temperature.innerHTML = "Температура:" + (data.main.temp - 273).toFixed(2);
-  wind.innerHTML = "Ветер:" + (data.wind.speed).toFixed(2) + " m/c";
-  description.innerHTML = "Описание:" + data.weather.main + ", " + data.weather.description;
+  cityoutput.innerHTML = "Метеоданные по городу " + City;                             // `Метеоданные по городу ${City}`
+  temperature.innerHTML = "Температура:" + (data.main.temp - 273).toFixed(2);         // `Температура: ${(data.main.temp - 273).toFixed(2))}`
+  wind.innerHTML = "Ветер:" + (data.wind.speed).toFixed(2) + " m/c";                  // `Ветер: ${(data.wind.speed.toFixed(2))}m/c` 
+  description.innerHTML = "Описание:" + data.weather.main + ", " + data.weather.description; // `Описание: ${data.weather[0].main} ${data.weather.description}`
 }
+
+/*
+отлично пару моментов
+
+при написании кода стоит придерживаться такого подхода 
+
+в начале дефинируем все что нам надо переменные и функции, а только потом их используем 
+
+*/
