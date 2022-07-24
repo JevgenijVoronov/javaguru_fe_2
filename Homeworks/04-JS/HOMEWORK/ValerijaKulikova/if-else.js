@@ -19,6 +19,8 @@ switch (DaysOfWeek) {
         break;    
     case 7:
         console.log (String ("Sunday"));
-        break;           
+        break;   
+    default:
+        console.log('Error');            
 }
     
