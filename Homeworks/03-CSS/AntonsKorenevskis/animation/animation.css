@@ -1,0 +1,41 @@
+.flex-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  /* после разбора домашки в зуме понял, что можно было проще сделать в нескольких местах */
+  .flex-container > div {
+    background-color: #d8d5d5;
+    width: 100px;
+    height: 100px;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    margin: 10px;
+    border-radius: 50%;    
+  }
+
+  .left {
+    animation-delay: 0.1s;
+  }
+  
+  .center {
+    animation-delay: 0.2s;
+  }
+  
+  .right {
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes bounce {
+    0%  {transform: scale(1);}
+    25% {background-color: grey; transform: scale(1.4);}
+    50% {background-color: #d8d5d5; transform: scale(1);}
+    75%  {transform: scale(1);}
+    100% {transform: scale(1);}
+  }
+
+  

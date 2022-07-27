@@ -1,0 +1,51 @@
+.contactMe {
+    text-align: center;
+    padding-bottom: 50px;
+    background-position: 30%;
+    height: 80vh;
+}
+
+
+.contactMe__input,
+.contactMe__text-area {
+    width: 100%;
+    height: 20px;
+    
+    font-size: 0.8em;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    
+}
+
+.contactMe__text-area {
+    height: 100px;
+    padding-bottom: 20px;
+    
+}
+
+.contactMe__submit-btn {
+    width: 100%;
+    
+    
+    color: var(--font-hover-color);
+    background-color: transparent;
+    margin-top: 15px;
+    border: 1px solid var(--font-hover-color);
+    border-radius: 5px;
+    
+    
+    font-size: 0.8em;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+}
+
+.contactMe__submit-btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}

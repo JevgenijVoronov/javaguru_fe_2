@@ -7,7 +7,7 @@
 | Kristina Pavlova      | ✓ | ✓ | ✓ |   |   |   |   |   |   |   |
 | Lilija G              | ✓ |   |   |   |   |   | ❓ |   |   |   |
 | Olga Suhusina         | ✓ | ✓ | ✓ |   |   | ❓ |   |   |   |   |
-| Sergejs Tupiks        | ✓ | ❓ |   |   |   |   | ❓ |   |   |   |
+| Sergejs Tupiks        | ✓ | ❓ |   |   |   |   | ❓ | ❓ |   |   |
 | Valerija Kulikova     | ✓ | ✓ |   |   |   |   |   |   |   |   |
 | Vladislavs Savcenko   | ✓ | ✓ |   |   |   |   |   |   |   |   |
 | ZannaVannaga          | ✓ |   |   |   |   |   |   |   |   |   |

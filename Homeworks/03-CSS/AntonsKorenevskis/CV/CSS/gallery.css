@@ -1,0 +1,183 @@
+h6, p {
+    font-family: sans-serif;
+  }
+  
+  .c-heroImageGrid {
+      position: relative;
+      overflow: hidden;
+      height: 50vw;
+      background: #000000;
+      margin-bottom: 60px;
+  }
+  
+  .c-heroImageGrid .container {
+      display: flex;
+      align-items: flex-end;
+      position: absolute;
+      top: -20vw;
+      left: -8vw;
+      transform: rotateZ(45deg);
+      height: 100vw;
+      width: 107vw;
+  }
+  
+  .c-heroImageGrid .container .column {
+      overflow: hidden;
+      position: relative;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(1) {
+      border-right: 8px solid black;
+      width: 25%;
+      height: 66vw;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(1):hover {
+      opacity: 0.75;
+      cursor: pointer;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(1):before {
+      position: absolute;
+      top: 8.4vw;
+      left: 8.1vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: rotateZ(-45deg);
+      content: "";
+      width: 37vw;
+      height: 38vw;
+      background-image: url(https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?cs=srgb&dl=beach-blur-boardwalk-132037.jpg&fm=jpg);
+  }
+  
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 75%;
+      height: 109.1vw;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row {
+      border-top: 8px solid #000000;
+  }
+  
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1) {
+      position: relative;
+      overflow: hidden;
+      height: 50vw;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1):hover {
+      opacity: 0.75;
+      cursor: pointer;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1):before {
+      position: absolute;
+      top: -10.1vw;
+      left: -14.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: rotateZ(-45deg);
+      content: "";
+      width: 65vw;
+      height: 39vw;
+      background-image: url(https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?cs=srgb&dl=arch-bridge-clouds-814499.jpg&fm=jpg);
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) {
+      display: flex;
+      height: 40.5vw;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3) {
+      border-top: none;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) {
+      overflow: hidden;
+      width: 30%;
+      background-color: #000000;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+      transform: rotateZ(-45deg);
+      position: relative;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text h6 {
+      position: absolute;
+      color: #000000;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 1.35vw;
+      width: 20vw;
+      top: 16vw;
+      left: 7vw;
+      line-height: 1.55vw;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text p {
+      text-align: right;
+      position: absolute;
+      color: #000000;
+      font-size: 0.9vw;
+      width: 18vw;
+      top: 23.5vw;
+      left: -3.5vw;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2) {
+      position: relative;
+      width: 70%;
+      border-left: 8px solid black;
+      overflow: hidden;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):hover {
+      opacity: 0.75;
+      cursor: pointer;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):before {
+      position: absolute;
+      top: 0;
+      left: -40vw;
+      width: 110.1vw;
+      height: 110vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: rotateZ(-45deg);
+      content: "";
+      background-image: url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?cs=srgb&dl=adventure-calm-clouds-414171.jpg&fm=jpg);
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3) {
+      position: relative;
+      height: 18.6vw;
+      overflow: hidden;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3):hover {
+      opacity: 0.75;
+      cursor: pointer;
+  }
+  
+  .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3):before {
+      position: absolute;
+      top: 7.5vw;
+      left: 25vw;
+      width: 33vw;
+      height: 27vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: rotateZ(-45deg);
+      content: "";
+      background-image: url(https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  }
+  

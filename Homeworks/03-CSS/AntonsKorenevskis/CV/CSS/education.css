@@ -1,0 +1,20 @@
+.education {
+    background-color: black;
+    padding: 0 20% 20px 20%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.education__item {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+    
+}
+.education__item li {
+    padding: 15px 30px 10px 0px;
+}
+
+.education__item li:last-child {
+    padding-bottom: 40px;
+}
