@@ -424,29 +424,100 @@ function checkEqual(a, b) {
 console.log(checkEqual(1, 1))
 
 
-function checkNum(num){
+function checkNum(num) {
     return num > 0 ? "bigger than 0" : num < -10 ? "less than 10" : "between -10 and 0 inclusively";
 }
 console.log(checkNum(0));
 
 
-function CheckManyTimes(str){
+function CheckManyTimes(str) {
     "use strict";
-    
+
     const SENTENCE = str + "is cool"; // will never be reassigned
 
-    for (var i = 0; i < str.lenght; i += 2){
-        console.log (SENTENCE)
+    for (var i = 0; i < str.lenght; i += 2) {
+        console.log(SENTENCE)
     }
-    }
-CheckManyTimes ("Positivus")
+}
+CheckManyTimes("Positivus")
 
 const s = [5, 7, 2];
-function editInPace (){
+function editInPace() {
     "use strict";
-    s[0]=1;
-    s[2]=3;
+    s[0] = 1;
+    s[2] = 3;
 }// assigned separately
 
 // shortened function
 const magic = () => new Date(); // instead of = function () {return new Date()};
+
+function makeUser(name, age) {
+    return {
+        name,
+        age
+    }
+}
+
+
+// OBJECTS' TASKS
+//1
+// Create an empty object user.
+// Add the property name with the value John.
+// Add the property surname with the value Smith.
+// Change the value of the name to Pete.
+// Remove the property name from the object.
+let user = {};
+user.name = "John";
+user.surname = "Smith";
+user.name = "Pete";
+delete user.name;
+console.log(user);
+
+// //2
+// Write the function isEmpty(obj) which returns true if the object has no properties, false otherwise.
+function isEmpty(obj) {
+    for (let key in obj) {
+        return
+    }
+}
+// hz
+
+//3
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+}
+console.log(salaries.John + salaries.Ann + salaries.Pete);
+
+//4 hz
+
+
+//   //2.23.54 increment thing
+//   const increment = (function(){
+//       return function increment (number, value = 1){
+//           return number + value;
+//       }
+//   })();
+
+//spread operator
+const arr1 = ['janis', 'peteris', 'markus'];
+let arr2;
+(function () {
+    arr2 = [...arr1];
+    arr1[0] = 'vjaceslavs'
+})();
+console.log(arr2); // budet takim zhe kak i bylo a ne novym s vjaceslavom
+
+// 3.00.00 chto eto i zachem
+const AVG_TEMP = {
+    today: 77.5,
+    tomorrow: 79
+};
+function getTempTomorrow(avgTemperature) {
+    "use strict";
+    const {tomorrow : tempOfTmr} = avgTemperature;
+return tempOfTmr;
+}
+console.log(getTempTomorrow(AVG_TEMP));
+
