@@ -1,7 +1,7 @@
 function checkZIP() {
     // добавить ещё 3 страны
     var constraints = {
-      lv : [ '^(LV-)?\\d{4}$', "Latvias ZIPs jabut 4 simboliem un jasakas ar LV-: e.g. LV-3001 or 3007" ],
+      lv : [ '^(LV-)?\\d{4}$', "сообщение об ошибке" ],
     };
   
     var country = document.getElementById("Country").value;
