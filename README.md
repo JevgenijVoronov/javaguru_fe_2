@@ -12,7 +12,7 @@
 | Vladislavs Savcenko   | ✓ | ✓ |   |   |   |   |   |   |   |   |
 | ZannaVannaga          | ✓ |   |   |   |   |   |   |   |   |   |
 | Amirs	Kovilovs        |   |   |   |   |   |   |   |   |   |   |
-| Andrei Tatur          |   | ❓ | ❓ | ❓ |   | ❓ |   |   |   |   |                
+| Andrei Tatur          |   | ❓ | ❓ | ❓ |   | ❓ | ❓ | ❓| ❓ |   |                
 | Dzianis Khaladzila    |   |   |   |   |   |   |   |   |   |   |
 | Anvarjon Sheraliev    | ✓ | ✓ |   |   |   |   |   |   |   |   |
 | Andrejs Iļjasovs      |   |   |   |   |   |   |   |   |   |   |
