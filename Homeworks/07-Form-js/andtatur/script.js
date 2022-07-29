@@ -1,0 +1,1 @@
+var elem = document.getElementById("para1");

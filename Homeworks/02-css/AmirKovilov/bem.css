@@ -1,0 +1,63 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial;
+}
+.button_color-primary {
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button_color-danger {
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button_color-warning {
+    background-color: orange;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button_color-info {
+    background-color: lightblue;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button_color-succsess {
+    background-color: greenyellow;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button_color-default {
+    background-color: rgb(158, 158, 158);
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button_color-link {
+    background-color: transparent;
+    color: blue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button_size_large {
+    width: 100px;
+    height: 60px;
+}
+.button_size_small {
+    font-size: 12px;
+}
+.button_size_extra-smalll {
+    font-size: 10px;
+}

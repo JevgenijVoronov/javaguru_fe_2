@@ -1,21 +1,15 @@
-const main = document.getElementById("root")
+const main = document.getElementById("root");
 
-const letters = ['a', 'b', 'c', 'd', 'e']
+const letters = ['a', 'b', 'c', 'd', 'e','f'];
 
-const userLetter = prompt ("Write the letter down") // мы запрашиваем число  1-2-3-4-5-6.......
+const userLetter = prompt ("Write the number down");
 
-console.log(letters)
-console.log(userLetter)
+main.innerText = letters[userLetter];
 
-console.log(letters.innerText)
-// main.append(promptLetter)
-
-
-main.innerText = letters[userLetter]; // выводим элемент из массива с порядковым номером
-
-// дальше нам надо добавить addEventListener
-document.addEventListener("keypress", (e) => {
-    // и проверить if else что что клавиша совпадает с выбраным элементом массива
-    console.log(e.key)
-    console.log(letters[userLetter])
+document.addEventListener("keypress", (eventObject) => {
+    if (eventObject.key === letters[userLetter]) {
+        alert ('yes');
+    } else {
+        alert ('no');
+    }
 })
