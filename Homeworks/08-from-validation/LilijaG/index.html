@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="form">
+        <div>
+            <label for="text">Text field</label>
+            <input type="text" name="text" id="text" placeholder="Enter any text" title="Enter any text !" required />
+        </div>
+
+        <div>
+            <label for="text">Email text</label>
+            <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@gmail\.com"
+                placeholder="Enter your gmail.com email address" title="E-mail field must contain the @gmail.com !"
+                required />
+        </div>
+
+        <div>
+            <label for="minmaxlength">Text field with min and max lenght</label>
+            <input type="text" name="minmaxlength" id="minmaxlength" minlength="5" maxlength="10"
+                placeholder="From 5 to 10 characters" title="The length of the text field is from 5 to 10 characters!"
+                required />
+        </div>
+
+        <div>
+            <label for="password">Password (containt one capital char, one letter char and one number)</label>
+            <input type="password" name="password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                placeholder="Must contain at least 1 uppercase letter, 1 lowercase letter and 1 number"
+                title="Password must contain at least 1 uppercase letter, 1 lowercase letter and 1 number!" required />
+        </div>
+
+        <div>
+            <label for="passwordWith8">Password (containt 8 characters one capital char, one letter char and one
+                number)</label>
+            <input type="password" name="passwordWith8" id="passwordWith8" minlength="8"
+                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                placeholder="Must contain at least 8 symbols - 1 uppercase letter, 1 lowercase letter and 1 number"
+                title="Password must contain at least 8 symbols - 1 uppercase letter, 1 lowercase letter and 1 number!"
+                required />
+        </div>
+
+        <div>
+            <label for="inputWeek">Week</label>
+            <input type="week" name="week" id="inputWeek" min="2022-W18" max="2022-W26" title="Week from 18 to 26!"
+                required />
+        </div>
+
+        <div>
+            <label for="inputTime">Time</label>
+            <input type="time" id="time" name="time" min="09:00" max="18:00" title="Hours are from 9am to 6pm!"
+                required />
+        </div>
+
+        </hr>
+
+        <div>
+            <label for="zip">ZIP : </label>
+            <input type="text" name="zip" id="zip" />
+            <label for="country">Country : </label>
+            <select id="country">
+                <option value="lv">Latvia</option>
+                <option value="lt">Lithuania</option>
+                <option value="est">Estonia</option>
+            </select>
+        </div>
+
+        <input name="submit" id="submit" type="submit" class="button" value="Check">
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
