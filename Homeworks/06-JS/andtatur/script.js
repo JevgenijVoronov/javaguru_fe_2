@@ -5,9 +5,37 @@
 //     let container = document.getElementById("myText")
 //     container.appendChild(item)
 // }
-function myFunction() {
-    var x = document.getElementById("myText").value;
-    document.getElementById("demo").innerHTML = x;
+
+// var x
+let tasks = [];
+function displayItems() {
+    var display = document.getElementById("main")
+    display.innerHTML = ""
+    for (let i = 0; i < tasks.length; i++) {
+        //   display.innerHTML = tasks.name[i]
+        console.log(tasks[i].name)
+        let a = document.createElement("div")
+        a.innerHTML = tasks[i].name;
+        display.appendChild(a);
+
+    }
 }
 
-td.addTask("Hello World")
+
+function newTask() {
+    var input = document.getElementById("myText");
+    // инпут 
+    console.log("newTask", input);
+    if (input.value !== "") {
+        const task = {
+            name: input.value,
+            done: false,
+        }
+        tasks.push(task);
+        console.log("tasks", tasks);
+        input.value = ""
+        tasks[0]
+        displayItems()
+    }
+}
+
