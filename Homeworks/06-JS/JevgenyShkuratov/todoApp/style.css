@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(79, 175, 239);
+}
+
+.done {
+    color: red;
+    text-decoration: line-through;
+}
