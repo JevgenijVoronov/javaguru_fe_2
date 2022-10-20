@@ -510,14 +510,235 @@ let arr2;
 console.log(arr2); // budet takim zhe kak i bylo a ne novym s vjaceslavom
 
 // 3.00.00 chto eto i zachem
+//2:57:20 Use Desrtucturing Assignment to Assign Variables from Objects
+var voxel = {x: 3.6, y: 7.4, z: 6.54};
+
+var x = voxel.x;
+var y = voxel.y;
+var z = voxel.z;
+// 
+
+const { x:a, y:b, z:c} = voxel;
+// pochemu A stanovitsya ravnym X?
+
+
 const AVG_TEMP = {
     today: 77.5,
     tomorrow: 79
 };
-function getTempTomorrow(avgTemperature) {
+function getTempTmrw(avgTemperature) {
     "use strict";
+
     const {tomorrow : tempOfTmr} = avgTemperature;
 return tempOfTmr;
 }
-console.log(getTempTomorrow(AVG_TEMP));
+console.log(getTempTmrw(AVG_TEMP));
 
+//desctructuring assignment
+
+const LOCAL_FORECAST = {
+    today: { min: 72, max: 83},
+    tomorrow: { min: 73.3, max: 84.6}
+};
+
+function getMaxOfTmrw(forecast) {
+    "use strict";
+
+    const {tomorrow: {max: maxOfTomorrow }}=  forecast;
+
+    return maxOfTomorrow;
+}
+
+//How to assign variables from Arrays
+const [z,x] = [1,2,3,4,5,6];
+console.log(z, x);
+
+let a = 8, b = 6;
+(() => {
+    //pochemu tak mnogo skobok?? chto znachit "use strict"
+    "use strict";
+    [a,b] = [b,a]
+})();
+console.log(a);
+console.log(b);
+//pochemu ne vizhu etix console.logov?
+
+
+
+//Destructuring Assignment with the Rest Operator
+const sourse = [1,2,3,4,5,6,7,8,9,10];
+function removeFirstTwo(list) {
+
+    const [, , ...arr]= list;
+    //first and second elements are skipped
+
+    return arr
+    //zachem vezde return?
+    //what is return?
+}
+const arr = removeFirstTwo(source);
+console.log (arr);
+console.log(source);
+//pochemu nichego ne rabotayet? pochemu SOURCE podcherknut?
+//3:05:00
+// kas ir gan gan?
+
+
+
+//use destructuring assignment to pass an object as a function's parameters
+const stats = {
+    max: 56.78,
+    standard_deviation: 4.34,
+    median: 34.54,
+    mode: 23.87,
+    min: -0.75,
+    average: 38.85
+};
+const half = (function(){
+
+    return function half({ max, min}){
+        return (max + min) / 2.0
+        //to zhe samoe chto i stats.max + stats.min. Pochemu?
+    };
+})();
+console.log(stats);
+console.log(half(stats));
+// ne ponyal
+
+
+
+//Create string using Template Literals
+const person = {
+    name: "Hanna Montana",
+    channel: "Disney Channel"
+    //mozhno number, ok
+} ;
+
+const greeting = `Hello, I am ${person.name}!
+And you are watching ${person.channel}.`;
+console.log(greeting);
+
+const result = {
+    success: ["max-length", "no-amd", "prefer-arrow-functions"],
+    failure: ["no-var", "var-on-top", "linebreak"],
+    skipped: ["id-blacklist", "no-dup-keys"]
+};
+function makeList(arr){
+    const resultDisplayArray = [];
+    for (let i = 0; i < arr.length; i++){
+        resultDisplayArray.push(`<li class="text-warning">${arr[i]}</li>`)
+    }
+
+    return resultDisplayArray;
+}
+
+const resultDisplayArray = makeList(result.failure);
+
+console.log(resultDisplayArray)
+
+
+
+//Concise Object Literal Declarations Using Simple Fields
+const createPerson = (name, age, gender) => ({name, age, gender});
+//vmesto => moglo byt dlinnee
+// return {
+//     name:name
+//     age:age,
+//     gender:gender
+// }
+console.log(createPerson("Zodiac Hasbro", 56, "male"));
+
+
+//concise declarative functions
+const bicycle = {
+    gear:2,
+    setGear(newGear){
+    // mozhno bylo dlinnee>> setGear: function(newGear){
+        "use strict";
+        this.gear = newGear;
+    }
+};
+bicycle.setGear(3);
+console.log(bicycle.gear);
+
+
+//class syntax to define a constructor function
+//class syntax replace the constructor function creation
+class SpaceShuttle {
+    constructor(targetPlanet){
+        //replaced>> var SpaceShuttle = function(targetPlanet)
+        this.targetPlanet = targetPlanet;
+    }
+}
+var zeus = new SpaceShuttle('Jupiter');
+
+console.log(zeus.targetPlanet)
+//
+function makeClass(){
+    class Vegetable {
+        constructor(name){
+            this.name = name;
+        }
+    }
+    return Vegetable;
+}
+const Vegetable = makeClass();
+const carrot = new Vegetable('carrot');
+console.log(carrot.name);
+
+
+//getters and setters to control access to an object
+function makeCLass(){
+    class Thermostat {
+        constructor (temp){
+            this._temp = 5/9 * (temp - 32);
+        }
+        get temperature(){
+            return this._temp;
+        }
+        set temperature (updatedTemp){
+            this._temp= updatedTemp;
+        }
+    }
+    return Thermostat;
+}
+
+const Thermostat = makeClass();
+const thermos = new Thermostat(76);
+// why 76 goest into constructor(temp)?
+let temp = thermos.temperature;
+
+
+
+//differences between import and require
+import {capitalizeString } from "./export"
+const cap = capitalizeString ("hello!");
+
+console.log(cap);
+
+//use export to reuse a code block
+const capitalizeString = (string) => {
+    return string.charAt(0).tuUpperCase() + string.slice(1);
+}
+export {capitalizeString};
+export const foo = "bar";
+export const bar = "foo";
+//?
+
+
+//use * to Import everything from a file
+import * as export from "export_strings";
+//export is a file name u see near to chernovik
+
+
+
+//export fallback with export default
+export default function subtrack (x,y) {return x-y;}
+//?
+
+
+//import a default export
+import subtract from "math_function"
+
+subtract (7,4);
+//we pretend we have a file called math_function that has a default export name SUBTRACK
